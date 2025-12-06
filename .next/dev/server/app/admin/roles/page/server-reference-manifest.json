@@ -1,0 +1,185 @@
+{
+  "node": {
+    "00464217d3aa7eb204663ec6785e809fb52281618c": {
+      "workers": {
+        "app/admin/roles/page": {
+          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/roles/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getCurrentUserProfile",
+          "filename": "Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/roles/page": "rsc"
+      },
+      "exportedName": "getCurrentUserProfile",
+      "filename": "Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts"
+    },
+    "00cdb95e9ea7d0fac6af409790773d5d5c50afc015": {
+      "workers": {
+        "app/admin/roles/page": {
+          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/roles/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getUserStats",
+          "filename": "Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/roles/page": "rsc"
+      },
+      "exportedName": "getUserStats",
+      "filename": "Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts"
+    },
+    "4011e93eb655bb1a62654dc10bca933e3b4dcf3ac6": {
+      "workers": {
+        "app/admin/roles/page": {
+          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/roles/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "createUser",
+          "filename": "Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/roles/page": "rsc"
+      },
+      "exportedName": "createUser",
+      "filename": "Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts"
+    },
+    "402451b83d792fe39b97a67d95694c83011e634b98": {
+      "workers": {
+        "app/admin/roles/page": {
+          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/roles/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "deleteUser",
+          "filename": "Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/roles/page": "rsc"
+      },
+      "exportedName": "deleteUser",
+      "filename": "Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts"
+    },
+    "40a9b20b23ff43d28274199f48a308fe50ae6c8577": {
+      "workers": {
+        "app/admin/roles/page": {
+          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/roles/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getUserById",
+          "filename": "Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/roles/page": "rsc"
+      },
+      "exportedName": "getUserById",
+      "filename": "Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts"
+    },
+    "40e45acf41eaba917bc7c3e0a8fc992963f6662e1e": {
+      "workers": {
+        "app/admin/roles/page": {
+          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/roles/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateCurrentUserProfile",
+          "filename": "Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/roles/page": "rsc"
+      },
+      "exportedName": "updateCurrentUserProfile",
+      "filename": "Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts"
+    },
+    "602ce76d1a8522f52d884e4d2288db43728a5c5550": {
+      "workers": {
+        "app/admin/roles/page": {
+          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/roles/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateUserStatus",
+          "filename": "Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/roles/page": "rsc"
+      },
+      "exportedName": "updateUserStatus",
+      "filename": "Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts"
+    },
+    "604bb47d58f793eb688ba8408e6a82976b2ddc3843": {
+      "workers": {
+        "app/admin/roles/page": {
+          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/roles/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getUsers",
+          "filename": "Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/roles/page": "rsc"
+      },
+      "exportedName": "getUsers",
+      "filename": "Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts"
+    },
+    "606c1d0c07257dab807f552615834dda018a8ead9f": {
+      "workers": {
+        "app/admin/roles/page": {
+          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/roles/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateCurrentUserPassword",
+          "filename": "Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/roles/page": "rsc"
+      },
+      "exportedName": "updateCurrentUserPassword",
+      "filename": "Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts"
+    },
+    "6079f65735e49b3dc879f66419e3eafa3fd51dbc84": {
+      "workers": {
+        "app/admin/roles/page": {
+          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/roles/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateUser",
+          "filename": "Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/roles/page": "rsc"
+      },
+      "exportedName": "updateUser",
+      "filename": "Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts"
+    },
+    "60f440baa352e67fc2246030d752f9eb3f86fd7d88": {
+      "workers": {
+        "app/admin/roles/page": {
+          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/roles/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateUserRole",
+          "filename": "Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/roles/page": "rsc"
+      },
+      "exportedName": "updateUserRole",
+      "filename": "Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts"
+    },
+    "0039632f10247d81b5a312638e6c83268c5cc2ead4": {
+      "workers": {
+        "app/admin/roles/page": {
+          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/roles/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "logoutAction",
+          "filename": "Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/roles/page": "action-browser"
+      },
+      "exportedName": "logoutAction",
+      "filename": "Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts"
+    }
+  },
+  "edge": {}
+}

@@ -1,0 +1,17 @@
+{
+  "/admin/books/page": "app/admin/books/page.js",
+  "/admin/fines/page": "app/admin/fines/page.js",
+  "/admin/logs/page": "app/admin/logs/page.js",
+  "/admin/page": "app/admin/page.js",
+  "/admin/reservations/page": "app/admin/reservations/page.js",
+  "/admin/roles/page": "app/admin/roles/page.js",
+  "/admin/transactions/page": "app/admin/transactions/page.js",
+  "/admin/users/page": "app/admin/users/page.js",
+  "/librarian/books/page": "app/librarian/books/page.js",
+  "/librarian/borrow-requests/page": "app/librarian/borrow-requests/page.js",
+  "/librarian/borrowed/page": "app/librarian/borrowed/page.js",
+  "/librarian/fines/page": "app/librarian/fines/page.js",
+  "/librarian/page": "app/librarian/page.js",
+  "/librarian/reservations/page": "app/librarian/reservations/page.js",
+  "/login/page": "app/login/page.js"
+}
