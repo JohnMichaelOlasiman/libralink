@@ -1,6 +1,9 @@
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+
 import { AdminHeader } from "@/components/admin-header"
 import { StatCard } from "@/components/stat-card"
-import { getAdminStats } from "@/lib/actions/stats-actions"
+import { getAdminStats } from "@/lib/actions/stats-actions" 
 import { getSession } from "@/lib/auth"
 import { redirect } from "next/navigation"
 import {

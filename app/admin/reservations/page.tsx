@@ -1,3 +1,7 @@
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+
+
 import { AdminHeader } from "@/components/admin-header"
 import { getReservations } from "@/lib/actions/reservation-actions"
 import { AdminReservationsClient } from "@/components/admin-reservations-client"

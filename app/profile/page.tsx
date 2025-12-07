@@ -1,3 +1,6 @@
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+
 import { Header } from "@/components/header"
 import { ProfileCard } from "@/components/profile-card"
 import { BorrowedBookCard } from "@/components/borrowed-book-card"

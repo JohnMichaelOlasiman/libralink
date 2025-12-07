@@ -1,3 +1,6 @@
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+
 import { Header } from "@/components/header"
 import { BookCard } from "@/components/book-card"
 import { getFeaturedBook, getPopularBooks } from "@/lib/actions/book-actions"

@@ -1,3 +1,6 @@
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+
 import { AdminHeader } from "@/components/admin-header"
 import { AdminProfileCard } from "@/components/admin-profile-card"
 import { AdminActionsCard } from "@/components/admin-actions-card"

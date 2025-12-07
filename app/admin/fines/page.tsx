@@ -1,3 +1,7 @@
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+
+
 import { AdminHeader } from "@/components/admin-header"
 import { getFines } from "@/lib/actions/fine-actions"
 import { getUsers } from "@/lib/actions/user-actions"

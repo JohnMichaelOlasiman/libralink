@@ -1,3 +1,6 @@
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+
 import { getUserStats } from "@/lib/actions/user-actions"
 import { AdminHeader } from "@/components/admin-header"
 import { RolesClient } from "@/components/roles-client"

@@ -1,3 +1,6 @@
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+
 import { LibrarianHeader } from "@/components/librarian-header"
 import { StatCard } from "@/components/stat-card"
 import { getLibraryStats } from "@/lib/actions/stats-actions"

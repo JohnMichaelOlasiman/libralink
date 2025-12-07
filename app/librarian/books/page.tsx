@@ -1,3 +1,7 @@
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+
+
 import { LibrarianHeader } from "@/components/librarian-header"
 import { getSession } from "@/lib/auth"
 import { redirect } from "next/navigation"

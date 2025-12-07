@@ -1,3 +1,6 @@
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+
 import { LibrarianHeader } from "@/components/librarian-header"
 import { AdminActionsCard } from "@/components/admin-actions-card"
 import { getSession } from "@/lib/auth"

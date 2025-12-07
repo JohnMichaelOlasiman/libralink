@@ -1,3 +1,6 @@
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+
 import { AdminHeader } from "@/components/admin-header"
 import { getBooks, getCategories } from "@/lib/actions/book-actions"
 import { AdminBooksClient } from "@/components/admin-books-client"
