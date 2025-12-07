@@ -9,6 +9,7 @@ export async function getBooks(search?: string, category?: string): Promise<Book
       c.name as category_name
     FROM books b
     LEFT JOIN categories c ON b.category_id = c.id
+    WHERE b.status != 'maintenance'
     ORDER BY b.created_at DESC
   `
 
@@ -43,7 +44,7 @@ export async function getBookById(id: string): Promise<BookWithDetails | null> {
     SELECT b.*, c.name as category_name
     FROM books b
     LEFT JOIN categories c ON b.category_id = c.id
-    WHERE b.id = ${id}
+    WHERE b.id = ${id} AND b.status != 'maintenance'
   `
 
   if (result.length === 0) return null
@@ -62,6 +63,7 @@ export async function getPopularBooks(limit = 6): Promise<BookWithDetails[]> {
     SELECT b.*, c.name as category_name
     FROM books b
     LEFT JOIN categories c ON b.category_id = c.id
+    WHERE b.status != 'maintenance'
     ORDER BY b.rating DESC, b.rating_count DESC
     LIMIT ${limit}
   `
@@ -79,6 +81,7 @@ export async function getFeaturedBook(): Promise<BookWithDetails | null> {
     SELECT b.*, c.name as category_name
     FROM books b
     LEFT JOIN categories c ON b.category_id = c.id
+    WHERE b.status != 'maintenance'
     ORDER BY b.rating DESC
     LIMIT 1
   `
@@ -200,12 +203,47 @@ export async function updateBook(
 export async function deleteBook(id: string): Promise<{ error: string | null }> {
   try {
     await requireRole(["librarian", "admin"])
-    await sql`DELETE FROM books WHERE id = ${id}`
+    // Soft delete by setting status to 'maintenance'
+    await sql`UPDATE books SET status = 'maintenance' WHERE id = ${id}`
     return { error: null }
   } catch (error) {
     console.error("Delete book error:", error)
     return { error: "Failed to delete book" }
   }
+}
+
+export async function getAllBooksIncludingDeleted(search?: string, category?: string): Promise<BookWithDetails[]> {
+  const result = await sql`
+    SELECT b.*, 
+      c.name as category_name
+    FROM books b
+    LEFT JOIN categories c ON b.category_id = c.id
+    ORDER BY b.created_at DESC
+  `
+
+  let books = result as any[]
+
+  books = books.map((book) => ({
+    ...book,
+    authors: book.author_name ? [{ id: "1", name: book.author_name }] : [],
+    categories: book.category_name ? [{ id: book.category_id, name: book.category_name }] : [],
+    publisher: book.publisher_name ? { id: "1", name: book.publisher_name } : null,
+  }))
+
+  if (search) {
+    const searchLower = search.toLowerCase()
+    books = books.filter(
+      (book) =>
+        book.title.toLowerCase().includes(searchLower) || (book.author_name || "").toLowerCase().includes(searchLower),
+    )
+  }
+
+  if (category) {
+    const categoryLower = category.toLowerCase()
+    books = books.filter((book) => (book.category_name || "").toLowerCase().includes(categoryLower))
+  }
+
+  return books as BookWithDetails[]
 }
 
 export async function getCategories(): Promise<Category[]> {
@@ -221,6 +259,7 @@ export async function getBookStats() {
       SUM(available_copies) as available_copies,
       SUM(total_copies - available_copies) as borrowed_copies
     FROM books
+    WHERE status != 'maintenance'
   `
   return stats[0]
 }

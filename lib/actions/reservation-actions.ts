@@ -11,7 +11,7 @@ export async function getReservations(status?: ReservationStatus): Promise<Reser
         jsonb_build_object('id', b.id, 'title', b.title, 'cover_url', b.cover_url, 'available_copies', b.available_copies) as book
       FROM reservations r
       INNER JOIN users u ON r.user_id = u.id
-      INNER JOIN books b ON r.book_id = b.id
+      INNER JOIN books b ON r.book_id = b.id AND b.status != 'maintenance'
     `
 
     if (status) {
@@ -36,7 +36,7 @@ export async function getUserReservations(userId: string): Promise<ReservationWi
         jsonb_build_object('id', b.id, 'title', b.title, 'cover_url', b.cover_url) as book
       FROM reservations r
       INNER JOIN users u ON r.user_id = u.id
-      INNER JOIN books b ON r.book_id = b.id
+      INNER JOIN books b ON r.book_id = b.id AND b.status != 'maintenance'
       WHERE r.user_id = ${userId}
       ORDER BY r.reserved_at DESC
     `
@@ -56,6 +56,15 @@ export async function createReservation(
       return { reservation: null, error: "Not authenticated" }
     }
 
+    // Check if book exists and is not deleted
+    const book = await sql`SELECT status FROM books WHERE id = ${bookId}`
+    if (book.length === 0) {
+      return { reservation: null, error: "Book not found" }
+    }
+    if (book[0].status === "maintenance") {
+      return { reservation: null, error: "This book is no longer available" }
+    }
+
     // Check for existing active reservation
     const existing = await sql`
       SELECT id FROM reservations 
@@ -65,7 +74,6 @@ export async function createReservation(
       return { reservation: null, error: "You already have an active reservation for this book" }
     }
 
-    // Set expiration date (7 days from now)
     const expiresAt = new Date()
     expiresAt.setDate(expiresAt.getDate() + 7)
 

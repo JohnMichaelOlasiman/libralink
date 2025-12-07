@@ -135,6 +135,21 @@
       "exportedName": "updateBook",
       "filename": "Downloads/libralink-final/lib/actions/book-actions.ts"
     },
+    "60df786037001c8526ed3fb2cd2e58b4bc72c850de": {
+      "workers": {
+        "app/admin/books/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/books/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getAllBooksIncludingDeleted",
+          "filename": "Downloads/libralink-final/lib/actions/book-actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/books/page": "rsc"
+      },
+      "exportedName": "getAllBooksIncludingDeleted",
+      "filename": "Downloads/libralink-final/lib/actions/book-actions.ts"
+    },
     "007d52e9519caef752d87e54542a5fef176db62e64": {
       "workers": {
         "app/admin/books/page": {

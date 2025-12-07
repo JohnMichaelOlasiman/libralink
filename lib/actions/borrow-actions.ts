@@ -11,7 +11,7 @@ export async function getBorrowRequests(status?: BorrowStatus): Promise<BorrowRe
       CASE WHEN ap.id IS NOT NULL THEN jsonb_build_object('id', ap.id, 'full_name', ap.full_name) ELSE NULL END as approver
     FROM borrow_requests br
     INNER JOIN users u ON br.user_id = u.id
-    INNER JOIN books b ON br.book_id = b.id
+    INNER JOIN books b ON br.book_id = b.id AND b.status != 'maintenance'
     LEFT JOIN users ap ON br.approved_by = ap.id
   `
 
@@ -33,7 +33,7 @@ export async function getUserBorrowedBooks(userId: string): Promise<BorrowReques
       CASE WHEN ap.id IS NOT NULL THEN jsonb_build_object('id', ap.id, 'full_name', ap.full_name) ELSE NULL END as approver
     FROM borrow_requests br
     INNER JOIN users u ON br.user_id = u.id
-    INNER JOIN books b ON br.book_id = b.id
+    INNER JOIN books b ON br.book_id = b.id AND b.status != 'maintenance'
     LEFT JOIN users ap ON br.approved_by = ap.id
     WHERE br.user_id = ${userId} AND br.status IN ('approved', 'overdue')
     ORDER BY br.approved_at DESC
@@ -50,10 +50,13 @@ export async function createBorrowRequest(
       return { request: null, error: "Not authenticated" }
     }
 
-    // Check if book is available
-    const book = await sql`SELECT available_copies FROM books WHERE id = ${bookId}`
+    // Check if book is available and not deleted
+    const book = await sql`SELECT available_copies, status FROM books WHERE id = ${bookId}`
     if (book.length === 0) {
       return { request: null, error: "Book not found" }
+    }
+    if (book[0].status === "maintenance") {
+      return { request: null, error: "This book is no longer available" }
     }
     if (book[0].available_copies <= 0) {
       return { request: null, error: "No copies available" }
@@ -85,7 +88,6 @@ export async function approveBorrowRequest(requestId: string, dueDate: Date): Pr
   try {
     const user = await requireRole(["librarian", "admin"])
 
-    // Get the request
     const request = await sql`SELECT * FROM borrow_requests WHERE id = ${requestId}`
     if (request.length === 0) {
       return { error: "Request not found" }
@@ -93,19 +95,16 @@ export async function approveBorrowRequest(requestId: string, dueDate: Date): Pr
 
     const bookId = request[0].book_id
 
-    // Update the request
     await sql`
       UPDATE borrow_requests 
       SET status = 'approved', approved_at = NOW(), approved_by = ${user.id}, due_date = ${dueDate}
       WHERE id = ${requestId}
     `
 
-    // Decrease available copies
     await sql`
       UPDATE books SET available_copies = available_copies - 1 WHERE id = ${bookId}
     `
 
-    // Log the action
     await sql`
       INSERT INTO system_logs (user_id, action, entity_type, entity_id, details)
       VALUES (${user.id}, 'borrow_approved', 'borrow_request', ${requestId}, '{}')
@@ -139,7 +138,6 @@ export async function returnBook(requestId: string): Promise<{ fine: number | nu
   try {
     const user = await requireRole(["librarian", "admin"])
 
-    // Get the request
     const request = await sql`SELECT * FROM borrow_requests WHERE id = ${requestId}`
     if (request.length === 0) {
       return { fine: null, error: "Request not found" }
@@ -151,26 +149,22 @@ export async function returnBook(requestId: string): Promise<{ fine: number | nu
     const dueDate = new Date(req.due_date)
     const now = new Date()
 
-    // Calculate fine if overdue ($0.50 per day)
     let fineAmount = 0
     if (now > dueDate) {
       const daysOverdue = Math.ceil((now.getTime() - dueDate.getTime()) / (1000 * 60 * 60 * 24))
       fineAmount = daysOverdue * 0.5
     }
 
-    // Update the request
     await sql`
       UPDATE borrow_requests 
       SET status = 'returned', returned_at = NOW()
       WHERE id = ${requestId}
     `
 
-    // Increase available copies
     await sql`
       UPDATE books SET available_copies = available_copies + 1 WHERE id = ${bookId}
     `
 
-    // Create fine if applicable
     if (fineAmount > 0) {
       await sql`
         INSERT INTO fines (user_id, borrow_request_id, book_id, amount, reason, description, created_by)
@@ -178,7 +172,6 @@ export async function returnBook(requestId: string): Promise<{ fine: number | nu
       `
     }
 
-    // Log the action
     await sql`
       INSERT INTO system_logs (user_id, action, entity_type, entity_id, details)
       VALUES (${user.id}, 'book_returned', 'borrow_request', ${requestId}, ${JSON.stringify({ fine: fineAmount })})
