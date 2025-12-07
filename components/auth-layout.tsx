@@ -16,11 +16,11 @@ export function AuthLayout({ children }: AuthLayoutProps) {
         </div>
 
         {/* Right side - Image */}
-        <div className="hidden md:block w-1/2 relative">
+        <div className="hidden md:block w-[50%] relative">
           <img
-            src="/stack-of-colorful-books-on-table-with-vintage-aest.jpg"
+            src="/library-login-right-cover.jpg"
             alt="Library books"
-            className="w-full h-full object-cover"
+            className="absolute inset-0 w-full h-full object-cover rounded-r-2xl"
           />
         </div>
       </div>

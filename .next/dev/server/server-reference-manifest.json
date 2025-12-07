@@ -1,1207 +1,1291 @@
 {
   "node": {
-    "4012ccf998fa48d9d85de69ce3e4ecac4c70f4b883": {
-      "workers": {
-        "app/admin/logs/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/logs/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/log-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "createLog",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/log-actions.ts"
-        }
-      },
-      "layer": {
-        "app/admin/logs/page": "rsc"
-      },
-      "filename": "Downloads/libra-link-student-app (2)/lib/actions/log-actions.ts",
-      "exportedName": "createLog"
-    },
-    "789d369d314d4bc1d633a6956cc01e07177188722e": {
-      "workers": {
-        "app/admin/logs/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/logs/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/log-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "getSystemLogs",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/log-actions.ts"
-        }
-      },
-      "layer": {
-        "app/admin/logs/page": "rsc"
-      },
-      "filename": "Downloads/libra-link-student-app (2)/lib/actions/log-actions.ts",
-      "exportedName": "getSystemLogs"
-    },
-    "0039632f10247d81b5a312638e6c83268c5cc2ead4": {
-      "workers": {
-        "app/admin/books/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/books/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/book-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "logoutAction",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts"
-        },
-        "app/admin/fines/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/fines/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/fine-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "logoutAction",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts"
-        },
-        "app/admin/logs/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/logs/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/log-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "logoutAction",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts"
-        },
-        "app/admin/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/stats-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "logoutAction",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts"
-        },
-        "app/admin/reservations/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/reservations/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/reservation-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "logoutAction",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts"
-        },
-        "app/admin/roles/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/roles/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "logoutAction",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts"
-        },
-        "app/admin/transactions/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/transactions/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "logoutAction",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts"
-        },
-        "app/admin/users/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/users/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "logoutAction",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts"
-        },
-        "app/librarian/books/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/librarian/books/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/book-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "logoutAction",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts"
-        },
-        "app/librarian/borrow-requests/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/librarian/borrow-requests/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "logoutAction",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts"
-        },
-        "app/librarian/borrowed/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/librarian/borrowed/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "logoutAction",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts"
-        },
-        "app/librarian/fines/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/librarian/fines/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/fine-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "logoutAction",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts"
-        },
-        "app/librarian/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/librarian/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/stats-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "logoutAction",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts"
-        },
-        "app/librarian/reservations/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/librarian/reservations/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/reservation-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "logoutAction",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts"
-        }
-      },
-      "layer": {
-        "app/admin/books/page": "action-browser",
-        "app/admin/fines/page": "action-browser",
-        "app/admin/logs/page": "action-browser",
-        "app/admin/page": "action-browser",
-        "app/admin/reservations/page": "action-browser",
-        "app/admin/roles/page": "action-browser",
-        "app/admin/transactions/page": "action-browser",
-        "app/admin/users/page": "action-browser",
-        "app/librarian/books/page": "action-browser",
-        "app/librarian/borrow-requests/page": "action-browser",
-        "app/librarian/borrowed/page": "action-browser",
-        "app/librarian/fines/page": "action-browser",
-        "app/librarian/page": "action-browser",
-        "app/librarian/reservations/page": "action-browser"
-      },
-      "filename": "Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts",
-      "exportedName": "logoutAction"
-    },
-    "00d92f163d4d3a9c092262133a2b6957ce9f207933": {
-      "workers": {
-        "app/admin/fines/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/fines/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/fine-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "getFineStats",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/fine-actions.ts"
-        },
-        "app/librarian/fines/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/librarian/fines/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/fine-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "getFineStats",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/fine-actions.ts"
-        }
-      },
-      "layer": {
-        "app/admin/fines/page": "rsc",
-        "app/librarian/fines/page": "rsc"
-      },
-      "filename": "Downloads/libra-link-student-app (2)/lib/actions/fine-actions.ts",
-      "exportedName": "getFineStats"
-    },
-    "40223ebf5101120297dc33cdd83a44884588f3603f": {
-      "workers": {
-        "app/admin/fines/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/fines/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/fine-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "deleteFine",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/fine-actions.ts"
-        },
-        "app/librarian/fines/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/librarian/fines/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/fine-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "deleteFine",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/fine-actions.ts"
-        }
-      },
-      "layer": {
-        "app/admin/fines/page": "action-browser",
-        "app/librarian/fines/page": "action-browser"
-      },
-      "filename": "Downloads/libra-link-student-app (2)/lib/actions/fine-actions.ts",
-      "exportedName": "deleteFine"
-    },
-    "4069e902269e7d02c4e9d2657101bf65829600cfd9": {
-      "workers": {
-        "app/admin/fines/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/fines/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/fine-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "markFinePaid",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/fine-actions.ts"
-        },
-        "app/librarian/fines/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/librarian/fines/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/fine-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "markFinePaid",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/fine-actions.ts"
-        }
-      },
-      "layer": {
-        "app/admin/fines/page": "action-browser",
-        "app/librarian/fines/page": "action-browser"
-      },
-      "filename": "Downloads/libra-link-student-app (2)/lib/actions/fine-actions.ts",
-      "exportedName": "markFinePaid"
-    },
-    "40c23f86d4c18582f7e3b7de8ff0d96de5f7d92c39": {
-      "workers": {
-        "app/admin/fines/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/fines/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/fine-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "getFines",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/fine-actions.ts"
-        },
-        "app/librarian/fines/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/librarian/fines/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/fine-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "getFines",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/fine-actions.ts"
-        }
-      },
-      "layer": {
-        "app/admin/fines/page": "rsc",
-        "app/librarian/fines/page": "rsc"
-      },
-      "filename": "Downloads/libra-link-student-app (2)/lib/actions/fine-actions.ts",
-      "exportedName": "getFines"
-    },
-    "40c2840122405acab5109ecfd7d0837c2d238d59f4": {
-      "workers": {
-        "app/admin/fines/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/fines/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/fine-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "getUserFines",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/fine-actions.ts"
-        },
-        "app/librarian/fines/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/librarian/fines/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/fine-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "getUserFines",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/fine-actions.ts"
-        }
-      },
-      "layer": {
-        "app/admin/fines/page": "rsc",
-        "app/librarian/fines/page": "rsc"
-      },
-      "filename": "Downloads/libra-link-student-app (2)/lib/actions/fine-actions.ts",
-      "exportedName": "getUserFines"
-    },
-    "40f691b0a828018913aeeea33ac519585dc9a0ec47": {
-      "workers": {
-        "app/admin/fines/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/fines/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/fine-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "createFine",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/fine-actions.ts"
-        },
-        "app/librarian/fines/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/librarian/fines/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/fine-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "createFine",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/fine-actions.ts"
-        }
-      },
-      "layer": {
-        "app/admin/fines/page": "action-browser",
-        "app/librarian/fines/page": "rsc"
-      },
-      "filename": "Downloads/libra-link-student-app (2)/lib/actions/fine-actions.ts",
-      "exportedName": "createFine"
-    },
-    "602bfc56017337e3cd3ee9a29d73857e35c2ceda13": {
-      "workers": {
-        "app/admin/fines/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/fines/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/fine-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "updateFine",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/fine-actions.ts"
-        },
-        "app/librarian/fines/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/librarian/fines/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/fine-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "updateFine",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/fine-actions.ts"
-        }
-      },
-      "layer": {
-        "app/admin/fines/page": "rsc",
-        "app/librarian/fines/page": "rsc"
-      },
-      "filename": "Downloads/libra-link-student-app (2)/lib/actions/fine-actions.ts",
-      "exportedName": "updateFine"
-    },
-    "00464217d3aa7eb204663ec6785e809fb52281618c": {
-      "workers": {
-        "app/admin/fines/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/fines/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/fine-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "getCurrentUserProfile",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts"
-        },
-        "app/admin/roles/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/roles/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "getCurrentUserProfile",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts"
-        },
-        "app/admin/users/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/users/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "getCurrentUserProfile",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts"
-        }
-      },
-      "layer": {
-        "app/admin/fines/page": "rsc",
-        "app/admin/roles/page": "rsc",
-        "app/admin/users/page": "rsc"
-      },
-      "filename": "Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts",
-      "exportedName": "getCurrentUserProfile"
-    },
-    "00cdb95e9ea7d0fac6af409790773d5d5c50afc015": {
-      "workers": {
-        "app/admin/fines/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/fines/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/fine-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "getUserStats",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts"
-        },
-        "app/admin/roles/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/roles/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "getUserStats",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts"
-        },
-        "app/admin/users/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/users/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "getUserStats",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts"
-        }
-      },
-      "layer": {
-        "app/admin/fines/page": "rsc",
-        "app/admin/roles/page": "rsc",
-        "app/admin/users/page": "rsc"
-      },
-      "filename": "Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts",
-      "exportedName": "getUserStats"
-    },
-    "4011e93eb655bb1a62654dc10bca933e3b4dcf3ac6": {
-      "workers": {
-        "app/admin/fines/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/fines/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/fine-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "createUser",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts"
-        },
-        "app/admin/roles/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/roles/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "createUser",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts"
-        },
-        "app/admin/users/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/users/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "createUser",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts"
-        }
-      },
-      "layer": {
-        "app/admin/fines/page": "rsc",
-        "app/admin/roles/page": "rsc",
-        "app/admin/users/page": "action-browser"
-      },
-      "filename": "Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts",
-      "exportedName": "createUser"
-    },
-    "402451b83d792fe39b97a67d95694c83011e634b98": {
-      "workers": {
-        "app/admin/fines/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/fines/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/fine-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "deleteUser",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts"
-        },
-        "app/admin/roles/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/roles/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "deleteUser",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts"
-        },
-        "app/admin/users/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/users/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "deleteUser",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts"
-        }
-      },
-      "layer": {
-        "app/admin/fines/page": "rsc",
-        "app/admin/roles/page": "rsc",
-        "app/admin/users/page": "action-browser"
-      },
-      "filename": "Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts",
-      "exportedName": "deleteUser"
-    },
-    "40a9b20b23ff43d28274199f48a308fe50ae6c8577": {
-      "workers": {
-        "app/admin/fines/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/fines/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/fine-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "getUserById",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts"
-        },
-        "app/admin/roles/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/roles/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "getUserById",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts"
-        },
-        "app/admin/users/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/users/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "getUserById",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts"
-        }
-      },
-      "layer": {
-        "app/admin/fines/page": "rsc",
-        "app/admin/roles/page": "rsc",
-        "app/admin/users/page": "rsc"
-      },
-      "filename": "Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts",
-      "exportedName": "getUserById"
-    },
-    "40e45acf41eaba917bc7c3e0a8fc992963f6662e1e": {
-      "workers": {
-        "app/admin/fines/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/fines/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/fine-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "updateCurrentUserProfile",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts"
-        },
-        "app/admin/roles/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/roles/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "updateCurrentUserProfile",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts"
-        },
-        "app/admin/users/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/users/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "updateCurrentUserProfile",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts"
-        }
-      },
-      "layer": {
-        "app/admin/fines/page": "rsc",
-        "app/admin/roles/page": "rsc",
-        "app/admin/users/page": "rsc"
-      },
-      "filename": "Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts",
-      "exportedName": "updateCurrentUserProfile"
-    },
-    "602ce76d1a8522f52d884e4d2288db43728a5c5550": {
-      "workers": {
-        "app/admin/fines/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/fines/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/fine-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "updateUserStatus",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts"
-        },
-        "app/admin/roles/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/roles/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "updateUserStatus",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts"
-        },
-        "app/admin/users/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/users/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "updateUserStatus",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts"
-        }
-      },
-      "layer": {
-        "app/admin/fines/page": "rsc",
-        "app/admin/roles/page": "rsc",
-        "app/admin/users/page": "action-browser"
-      },
-      "filename": "Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts",
-      "exportedName": "updateUserStatus"
-    },
-    "604bb47d58f793eb688ba8408e6a82976b2ddc3843": {
-      "workers": {
-        "app/admin/fines/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/fines/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/fine-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "getUsers",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts"
-        },
-        "app/admin/roles/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/roles/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "getUsers",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts"
-        },
-        "app/admin/users/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/users/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "getUsers",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts"
-        }
-      },
-      "layer": {
-        "app/admin/fines/page": "rsc",
-        "app/admin/roles/page": "rsc",
-        "app/admin/users/page": "rsc"
-      },
-      "filename": "Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts",
-      "exportedName": "getUsers"
-    },
-    "606c1d0c07257dab807f552615834dda018a8ead9f": {
-      "workers": {
-        "app/admin/fines/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/fines/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/fine-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "updateCurrentUserPassword",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts"
-        },
-        "app/admin/roles/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/roles/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "updateCurrentUserPassword",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts"
-        },
-        "app/admin/users/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/users/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "updateCurrentUserPassword",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts"
-        }
-      },
-      "layer": {
-        "app/admin/fines/page": "rsc",
-        "app/admin/roles/page": "rsc",
-        "app/admin/users/page": "rsc"
-      },
-      "filename": "Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts",
-      "exportedName": "updateCurrentUserPassword"
-    },
-    "6079f65735e49b3dc879f66419e3eafa3fd51dbc84": {
-      "workers": {
-        "app/admin/fines/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/fines/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/fine-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "updateUser",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts"
-        },
-        "app/admin/roles/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/roles/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "updateUser",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts"
-        },
-        "app/admin/users/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/users/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "updateUser",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts"
-        }
-      },
-      "layer": {
-        "app/admin/fines/page": "rsc",
-        "app/admin/roles/page": "rsc",
-        "app/admin/users/page": "rsc"
-      },
-      "filename": "Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts",
-      "exportedName": "updateUser"
-    },
-    "60f440baa352e67fc2246030d752f9eb3f86fd7d88": {
-      "workers": {
-        "app/admin/fines/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/fines/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/fine-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "updateUserRole",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts"
-        },
-        "app/admin/roles/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/roles/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "updateUserRole",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts"
-        },
-        "app/admin/users/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/users/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "updateUserRole",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts"
-        }
-      },
-      "layer": {
-        "app/admin/fines/page": "rsc",
-        "app/admin/roles/page": "rsc",
-        "app/admin/users/page": "action-browser"
-      },
-      "filename": "Downloads/libra-link-student-app (2)/lib/actions/user-actions.ts",
-      "exportedName": "updateUserRole"
-    },
-    "0003e72aa1bcba511bf4dbd2e5c21f143fca7490f5": {
-      "workers": {
-        "app/admin/reservations/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/reservations/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/reservation-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "getReservationStats",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/reservation-actions.ts"
-        },
-        "app/librarian/reservations/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/librarian/reservations/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/reservation-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "getReservationStats",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/reservation-actions.ts"
-        }
-      },
-      "layer": {
-        "app/admin/reservations/page": "rsc",
-        "app/librarian/reservations/page": "rsc"
-      },
-      "filename": "Downloads/libra-link-student-app (2)/lib/actions/reservation-actions.ts",
-      "exportedName": "getReservationStats"
-    },
-    "403a925e5eee22eee7ecf7176965c650d4c8554c78": {
-      "workers": {
-        "app/admin/reservations/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/reservations/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/reservation-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "getUserReservations",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/reservation-actions.ts"
-        },
-        "app/librarian/reservations/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/librarian/reservations/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/reservation-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "getUserReservations",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/reservation-actions.ts"
-        }
-      },
-      "layer": {
-        "app/admin/reservations/page": "rsc",
-        "app/librarian/reservations/page": "rsc"
-      },
-      "filename": "Downloads/libra-link-student-app (2)/lib/actions/reservation-actions.ts",
-      "exportedName": "getUserReservations"
-    },
-    "4059f65252b88b9655c26fd08a5cf8ca64eb23b2ff": {
-      "workers": {
-        "app/admin/reservations/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/reservations/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/reservation-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "cancelReservation",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/reservation-actions.ts"
-        },
-        "app/librarian/reservations/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/librarian/reservations/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/reservation-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "cancelReservation",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/reservation-actions.ts"
-        }
-      },
-      "layer": {
-        "app/admin/reservations/page": "action-browser",
-        "app/librarian/reservations/page": "action-browser"
-      },
-      "filename": "Downloads/libra-link-student-app (2)/lib/actions/reservation-actions.ts",
-      "exportedName": "cancelReservation"
-    },
-    "4078a3f97f48e385babf077fab08135bfe72de7eec": {
-      "workers": {
-        "app/admin/reservations/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/reservations/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/reservation-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "fulfillReservation",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/reservation-actions.ts"
-        },
-        "app/librarian/reservations/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/librarian/reservations/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/reservation-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "fulfillReservation",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/reservation-actions.ts"
-        }
-      },
-      "layer": {
-        "app/admin/reservations/page": "action-browser",
-        "app/librarian/reservations/page": "action-browser"
-      },
-      "filename": "Downloads/libra-link-student-app (2)/lib/actions/reservation-actions.ts",
-      "exportedName": "fulfillReservation"
-    },
-    "408e91126ad82588e341a6b22f37af06cf9e4cb2a2": {
-      "workers": {
-        "app/admin/reservations/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/reservations/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/reservation-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "getReservations",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/reservation-actions.ts"
-        },
-        "app/librarian/reservations/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/librarian/reservations/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/reservation-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "getReservations",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/reservation-actions.ts"
-        }
-      },
-      "layer": {
-        "app/admin/reservations/page": "rsc",
-        "app/librarian/reservations/page": "rsc"
-      },
-      "filename": "Downloads/libra-link-student-app (2)/lib/actions/reservation-actions.ts",
-      "exportedName": "getReservations"
-    },
-    "40d1e1bef013e4032638d2a38e90df50c41ac4c2b4": {
-      "workers": {
-        "app/admin/reservations/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/reservations/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/reservation-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "createReservation",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/reservation-actions.ts"
-        },
-        "app/librarian/reservations/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/librarian/reservations/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/reservation-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "createReservation",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/reservation-actions.ts"
-        }
-      },
-      "layer": {
-        "app/admin/reservations/page": "rsc",
-        "app/librarian/reservations/page": "rsc"
-      },
-      "filename": "Downloads/libra-link-student-app (2)/lib/actions/reservation-actions.ts",
-      "exportedName": "createReservation"
-    },
-    "00198f10690404f93ca17f21277db7af0b4b5936ac": {
-      "workers": {
-        "app/admin/books/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/books/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/book-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "getCategories",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/book-actions.ts"
-        },
-        "app/librarian/books/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/librarian/books/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/book-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "getCategories",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/book-actions.ts"
-        }
-      },
-      "layer": {
-        "app/admin/books/page": "rsc",
-        "app/librarian/books/page": "rsc"
-      },
-      "filename": "Downloads/libra-link-student-app (2)/lib/actions/book-actions.ts",
-      "exportedName": "getCategories"
-    },
-    "008b5bda8c25d6a2c9dc3676088b36cbd62fe578c8": {
-      "workers": {
-        "app/admin/books/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/books/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/book-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "getBookStats",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/book-actions.ts"
-        },
-        "app/librarian/books/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/librarian/books/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/book-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "getBookStats",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/book-actions.ts"
-        }
-      },
-      "layer": {
-        "app/admin/books/page": "rsc",
-        "app/librarian/books/page": "rsc"
-      },
-      "filename": "Downloads/libra-link-student-app (2)/lib/actions/book-actions.ts",
-      "exportedName": "getBookStats"
-    },
-    "00f7876a40f1a24a2d0597caad0f38264507df0beb": {
-      "workers": {
-        "app/admin/books/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/books/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/book-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "getFeaturedBook",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/book-actions.ts"
-        },
-        "app/librarian/books/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/librarian/books/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/book-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "getFeaturedBook",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/book-actions.ts"
-        }
-      },
-      "layer": {
-        "app/admin/books/page": "rsc",
-        "app/librarian/books/page": "rsc"
-      },
-      "filename": "Downloads/libra-link-student-app (2)/lib/actions/book-actions.ts",
-      "exportedName": "getFeaturedBook"
-    },
-    "4047ff4aca3484428d6b1e62f736b488051e48a746": {
-      "workers": {
-        "app/admin/books/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/books/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/book-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "getBookById",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/book-actions.ts"
-        },
-        "app/librarian/books/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/librarian/books/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/book-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "getBookById",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/book-actions.ts"
-        }
-      },
-      "layer": {
-        "app/admin/books/page": "rsc",
-        "app/librarian/books/page": "rsc"
-      },
-      "filename": "Downloads/libra-link-student-app (2)/lib/actions/book-actions.ts",
-      "exportedName": "getBookById"
-    },
-    "408e644af5e721f29fe8bee8bd6aad6bc20275f87b": {
-      "workers": {
-        "app/admin/books/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/books/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/book-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "deleteBook",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/book-actions.ts"
-        },
-        "app/librarian/books/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/librarian/books/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/book-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "deleteBook",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/book-actions.ts"
-        }
-      },
-      "layer": {
-        "app/admin/books/page": "action-browser",
-        "app/librarian/books/page": "action-browser"
-      },
-      "filename": "Downloads/libra-link-student-app (2)/lib/actions/book-actions.ts",
-      "exportedName": "deleteBook"
-    },
-    "40b044a932165a4b888d5295ac2e654bebf6f941c8": {
-      "workers": {
-        "app/admin/books/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/books/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/book-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "createBook",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/book-actions.ts"
-        },
-        "app/librarian/books/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/librarian/books/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/book-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "createBook",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/book-actions.ts"
-        }
-      },
-      "layer": {
-        "app/admin/books/page": "action-browser",
-        "app/librarian/books/page": "action-browser"
-      },
-      "filename": "Downloads/libra-link-student-app (2)/lib/actions/book-actions.ts",
-      "exportedName": "createBook"
-    },
-    "40d14c20370251f300c1024fd6763ae7db995555bb": {
-      "workers": {
-        "app/admin/books/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/books/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/book-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "getPopularBooks",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/book-actions.ts"
-        },
-        "app/librarian/books/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/librarian/books/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/book-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "getPopularBooks",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/book-actions.ts"
-        }
-      },
-      "layer": {
-        "app/admin/books/page": "rsc",
-        "app/librarian/books/page": "rsc"
-      },
-      "filename": "Downloads/libra-link-student-app (2)/lib/actions/book-actions.ts",
-      "exportedName": "getPopularBooks"
-    },
-    "6037b68650a613e5610d1da678cc063d3abbd06602": {
-      "workers": {
-        "app/admin/books/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/books/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/book-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "updateBook",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/book-actions.ts"
-        },
-        "app/librarian/books/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/librarian/books/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/book-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "updateBook",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/book-actions.ts"
-        }
-      },
-      "layer": {
-        "app/admin/books/page": "action-browser",
-        "app/librarian/books/page": "action-browser"
-      },
-      "filename": "Downloads/libra-link-student-app (2)/lib/actions/book-actions.ts",
-      "exportedName": "updateBook"
-    },
-    "60a953ef573534338d1a7c2a9758c425ec7d26fa5b": {
-      "workers": {
-        "app/admin/books/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/books/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/book-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "getBooks",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/book-actions.ts"
-        },
-        "app/librarian/books/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/librarian/books/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/book-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "getBooks",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/book-actions.ts"
-        }
-      },
-      "layer": {
-        "app/admin/books/page": "rsc",
-        "app/librarian/books/page": "rsc"
-      },
-      "filename": "Downloads/libra-link-student-app (2)/lib/actions/book-actions.ts",
-      "exportedName": "getBooks"
-    },
-    "003243ff19e996a81d96c2107cced560da16b02393": {
-      "workers": {
-        "app/admin/transactions/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/transactions/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "getBorrowStats",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/borrow-actions.ts"
-        },
-        "app/librarian/borrow-requests/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/librarian/borrow-requests/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "getBorrowStats",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/borrow-actions.ts"
-        },
-        "app/librarian/borrowed/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/librarian/borrowed/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "getBorrowStats",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/borrow-actions.ts"
-        }
-      },
-      "layer": {
-        "app/admin/transactions/page": "rsc",
-        "app/librarian/borrow-requests/page": "rsc",
-        "app/librarian/borrowed/page": "rsc"
-      },
-      "filename": "Downloads/libra-link-student-app (2)/lib/actions/borrow-actions.ts",
-      "exportedName": "getBorrowStats"
-    },
-    "407c2bfa4f492b876735b43d737eef1ea906a8d184": {
-      "workers": {
-        "app/admin/transactions/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/transactions/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "createBorrowRequest",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/borrow-actions.ts"
-        },
-        "app/librarian/borrow-requests/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/librarian/borrow-requests/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "createBorrowRequest",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/borrow-actions.ts"
-        },
-        "app/librarian/borrowed/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/librarian/borrowed/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "createBorrowRequest",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/borrow-actions.ts"
-        }
-      },
-      "layer": {
-        "app/admin/transactions/page": "rsc",
-        "app/librarian/borrow-requests/page": "rsc",
-        "app/librarian/borrowed/page": "rsc"
-      },
-      "filename": "Downloads/libra-link-student-app (2)/lib/actions/borrow-actions.ts",
-      "exportedName": "createBorrowRequest"
-    },
-    "4086537737e9ffb2f904bd1c670b5166fb012725f3": {
-      "workers": {
-        "app/admin/transactions/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/transactions/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "returnBook",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/borrow-actions.ts"
-        },
-        "app/librarian/borrow-requests/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/librarian/borrow-requests/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "returnBook",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/borrow-actions.ts"
-        },
-        "app/librarian/borrowed/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/librarian/borrowed/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "returnBook",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/borrow-actions.ts"
-        }
-      },
-      "layer": {
-        "app/admin/transactions/page": "action-browser",
-        "app/librarian/borrow-requests/page": "rsc",
-        "app/librarian/borrowed/page": "action-browser"
-      },
-      "filename": "Downloads/libra-link-student-app (2)/lib/actions/borrow-actions.ts",
-      "exportedName": "returnBook"
-    },
-    "408698856a7f0f7bcbd18ba7045dac9294f49c9a72": {
-      "workers": {
-        "app/admin/transactions/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/transactions/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "getBorrowRequests",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/borrow-actions.ts"
-        },
-        "app/librarian/borrow-requests/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/librarian/borrow-requests/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "getBorrowRequests",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/borrow-actions.ts"
-        },
-        "app/librarian/borrowed/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/librarian/borrowed/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "getBorrowRequests",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/borrow-actions.ts"
-        }
-      },
-      "layer": {
-        "app/admin/transactions/page": "rsc",
-        "app/librarian/borrow-requests/page": "rsc",
-        "app/librarian/borrowed/page": "rsc"
-      },
-      "filename": "Downloads/libra-link-student-app (2)/lib/actions/borrow-actions.ts",
-      "exportedName": "getBorrowRequests"
-    },
-    "40f0f987ae778b08eec26eed07cc5cf810bccd0393": {
-      "workers": {
-        "app/admin/transactions/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/transactions/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "getUserBorrowedBooks",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/borrow-actions.ts"
-        },
-        "app/librarian/borrow-requests/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/librarian/borrow-requests/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "getUserBorrowedBooks",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/borrow-actions.ts"
-        },
-        "app/librarian/borrowed/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/librarian/borrowed/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "getUserBorrowedBooks",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/borrow-actions.ts"
-        }
-      },
-      "layer": {
-        "app/admin/transactions/page": "rsc",
-        "app/librarian/borrow-requests/page": "rsc",
-        "app/librarian/borrowed/page": "rsc"
-      },
-      "filename": "Downloads/libra-link-student-app (2)/lib/actions/borrow-actions.ts",
-      "exportedName": "getUserBorrowedBooks"
-    },
-    "6007dac972c0365ed0d1ca08b2400608d18977277b": {
-      "workers": {
-        "app/admin/transactions/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/transactions/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "declineBorrowRequest",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/borrow-actions.ts"
-        },
-        "app/librarian/borrow-requests/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/librarian/borrow-requests/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "declineBorrowRequest",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/borrow-actions.ts"
-        },
-        "app/librarian/borrowed/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/librarian/borrowed/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "declineBorrowRequest",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/borrow-actions.ts"
-        }
-      },
-      "layer": {
-        "app/admin/transactions/page": "rsc",
-        "app/librarian/borrow-requests/page": "action-browser",
-        "app/librarian/borrowed/page": "rsc"
-      },
-      "filename": "Downloads/libra-link-student-app (2)/lib/actions/borrow-actions.ts",
-      "exportedName": "declineBorrowRequest"
-    },
-    "60e08174097bee8b9c8b1fa8f7929b101fe948dec7": {
-      "workers": {
-        "app/admin/transactions/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/transactions/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "approveBorrowRequest",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/borrow-actions.ts"
-        },
-        "app/librarian/borrow-requests/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/librarian/borrow-requests/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "approveBorrowRequest",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/borrow-actions.ts"
-        },
-        "app/librarian/borrowed/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/librarian/borrowed/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "approveBorrowRequest",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/borrow-actions.ts"
-        }
-      },
-      "layer": {
-        "app/admin/transactions/page": "rsc",
-        "app/librarian/borrow-requests/page": "action-browser",
-        "app/librarian/borrowed/page": "rsc"
-      },
-      "filename": "Downloads/libra-link-student-app (2)/lib/actions/borrow-actions.ts",
-      "exportedName": "approveBorrowRequest"
-    },
-    "0028d2e8116a902099c141ab64b47e14539d536cd2": {
-      "workers": {
-        "app/admin/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/stats-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "getAdminStats",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/stats-actions.ts"
-        },
-        "app/librarian/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/librarian/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/stats-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "getAdminStats",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/stats-actions.ts"
-        }
-      },
-      "layer": {
-        "app/admin/page": "rsc",
-        "app/librarian/page": "rsc"
-      },
-      "filename": "Downloads/libra-link-student-app (2)/lib/actions/stats-actions.ts",
-      "exportedName": "getAdminStats"
-    },
-    "00feb4b4eec4c41d1af30a2d852937a7cbbc78e396": {
-      "workers": {
-        "app/admin/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/admin/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/stats-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "getLibraryStats",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/stats-actions.ts"
-        },
-        "app/librarian/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/librarian/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/stats-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "getLibraryStats",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/stats-actions.ts"
-        }
-      },
-      "layer": {
-        "app/admin/page": "rsc",
-        "app/librarian/page": "rsc"
-      },
-      "filename": "Downloads/libra-link-student-app (2)/lib/actions/stats-actions.ts",
-      "exportedName": "getLibraryStats"
-    },
-    "40a51273def11839afb7551d0718b60f548c95e320": {
+    "4037794129af641328ecebc29e7e4138624e6cf53d": {
       "workers": {
         "app/login/page": {
-          "moduleId": "[project]/Downloads/libra-link-student-app (2)/.next-internal/server/app/login/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/login/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
           "async": false,
           "exportedName": "loginAction",
-          "filename": "Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts"
+          "filename": "Downloads/libralink-final/lib/actions/auth-actions.ts"
         }
       },
       "layer": {
         "app/login/page": "action-browser"
       },
-      "filename": "Downloads/libra-link-student-app (2)/lib/actions/auth-actions.ts",
+      "filename": "Downloads/libralink-final/lib/actions/auth-actions.ts",
       "exportedName": "loginAction"
+    },
+    "00a7de78c0161f12c33fe7a94744fe8173da521634": {
+      "workers": {
+        "app/admin/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/stats-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getAdminStats",
+          "filename": "Downloads/libralink-final/lib/actions/stats-actions.ts"
+        },
+        "app/librarian/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/librarian/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/stats-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getAdminStats",
+          "filename": "Downloads/libralink-final/lib/actions/stats-actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/page": "rsc",
+        "app/librarian/page": "rsc"
+      },
+      "filename": "Downloads/libralink-final/lib/actions/stats-actions.ts",
+      "exportedName": "getAdminStats"
+    },
+    "00c00e822057aec38238f5ec295a1cdcc22ce6d3e7": {
+      "workers": {
+        "app/admin/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/stats-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getLibraryStats",
+          "filename": "Downloads/libralink-final/lib/actions/stats-actions.ts"
+        },
+        "app/librarian/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/librarian/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/stats-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getLibraryStats",
+          "filename": "Downloads/libralink-final/lib/actions/stats-actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/page": "rsc",
+        "app/librarian/page": "rsc"
+      },
+      "filename": "Downloads/libralink-final/lib/actions/stats-actions.ts",
+      "exportedName": "getLibraryStats"
+    },
+    "007d52e9519caef752d87e54542a5fef176db62e64": {
+      "workers": {
+        "app/admin/books/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/books/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "logoutAction",
+          "filename": "Downloads/libralink-final/lib/actions/auth-actions.ts"
+        },
+        "app/admin/fines/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/fines/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/fine-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "logoutAction",
+          "filename": "Downloads/libralink-final/lib/actions/auth-actions.ts"
+        },
+        "app/admin/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/stats-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "logoutAction",
+          "filename": "Downloads/libralink-final/lib/actions/auth-actions.ts"
+        },
+        "app/admin/profile/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/profile/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/log-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Downloads/libralink-final/lib/actions/user-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "logoutAction",
+          "filename": "Downloads/libralink-final/lib/actions/auth-actions.ts"
+        },
+        "app/admin/reservations/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/reservations/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/reservation-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "logoutAction",
+          "filename": "Downloads/libralink-final/lib/actions/auth-actions.ts"
+        },
+        "app/admin/roles/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/roles/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "logoutAction",
+          "filename": "Downloads/libralink-final/lib/actions/auth-actions.ts"
+        },
+        "app/admin/transactions/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/transactions/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "logoutAction",
+          "filename": "Downloads/libralink-final/lib/actions/auth-actions.ts"
+        },
+        "app/admin/users/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/users/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "logoutAction",
+          "filename": "Downloads/libralink-final/lib/actions/auth-actions.ts"
+        },
+        "app/dashboard/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/dashboard/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Downloads/libralink-final/lib/actions/reservation-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "logoutAction",
+          "filename": "Downloads/libralink-final/lib/actions/auth-actions.ts"
+        },
+        "app/librarian/books/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/librarian/books/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "logoutAction",
+          "filename": "Downloads/libralink-final/lib/actions/auth-actions.ts"
+        },
+        "app/librarian/borrow-requests/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/librarian/borrow-requests/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "logoutAction",
+          "filename": "Downloads/libralink-final/lib/actions/auth-actions.ts"
+        },
+        "app/librarian/borrowed/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/librarian/borrowed/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "logoutAction",
+          "filename": "Downloads/libralink-final/lib/actions/auth-actions.ts"
+        },
+        "app/librarian/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/librarian/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/stats-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "logoutAction",
+          "filename": "Downloads/libralink-final/lib/actions/auth-actions.ts"
+        },
+        "app/librarian/profile/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/librarian/profile/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/log-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "logoutAction",
+          "filename": "Downloads/libralink-final/lib/actions/auth-actions.ts"
+        },
+        "app/profile/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/profile/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "logoutAction",
+          "filename": "Downloads/libralink-final/lib/actions/auth-actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/books/page": "action-browser",
+        "app/admin/fines/page": "action-browser",
+        "app/admin/page": "action-browser",
+        "app/admin/profile/page": "action-browser",
+        "app/admin/reservations/page": "action-browser",
+        "app/admin/roles/page": "action-browser",
+        "app/admin/transactions/page": "action-browser",
+        "app/admin/users/page": "action-browser",
+        "app/dashboard/page": "action-browser",
+        "app/librarian/books/page": "action-browser",
+        "app/librarian/borrow-requests/page": "action-browser",
+        "app/librarian/borrowed/page": "action-browser",
+        "app/librarian/page": "action-browser",
+        "app/librarian/profile/page": "action-browser",
+        "app/profile/page": "action-browser"
+      },
+      "filename": "Downloads/libralink-final/lib/actions/auth-actions.ts",
+      "exportedName": "logoutAction"
+    },
+    "003189311e2f0d0c856a4438b416209945159ae4c8": {
+      "workers": {
+        "app/admin/books/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/books/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getBookStats",
+          "filename": "Downloads/libralink-final/lib/actions/book-actions.ts"
+        },
+        "app/dashboard/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/dashboard/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Downloads/libralink-final/lib/actions/reservation-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getBookStats",
+          "filename": "Downloads/libralink-final/lib/actions/book-actions.ts"
+        },
+        "app/librarian/books/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/librarian/books/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getBookStats",
+          "filename": "Downloads/libralink-final/lib/actions/book-actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/books/page": "rsc",
+        "app/dashboard/page": "rsc",
+        "app/librarian/books/page": "rsc"
+      },
+      "filename": "Downloads/libralink-final/lib/actions/book-actions.ts",
+      "exportedName": "getBookStats"
+    },
+    "004ba42cf124980ba1fefe7a97380d8bcfe2edea5d": {
+      "workers": {
+        "app/admin/books/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/books/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getFeaturedBook",
+          "filename": "Downloads/libralink-final/lib/actions/book-actions.ts"
+        },
+        "app/dashboard/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/dashboard/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Downloads/libralink-final/lib/actions/reservation-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getFeaturedBook",
+          "filename": "Downloads/libralink-final/lib/actions/book-actions.ts"
+        },
+        "app/librarian/books/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/librarian/books/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getFeaturedBook",
+          "filename": "Downloads/libralink-final/lib/actions/book-actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/books/page": "rsc",
+        "app/dashboard/page": "rsc",
+        "app/librarian/books/page": "rsc"
+      },
+      "filename": "Downloads/libralink-final/lib/actions/book-actions.ts",
+      "exportedName": "getFeaturedBook"
+    },
+    "0090f7ba334f8c111c9f64b938e465999992a40f4c": {
+      "workers": {
+        "app/admin/books/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/books/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getCategories",
+          "filename": "Downloads/libralink-final/lib/actions/book-actions.ts"
+        },
+        "app/dashboard/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/dashboard/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Downloads/libralink-final/lib/actions/reservation-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getCategories",
+          "filename": "Downloads/libralink-final/lib/actions/book-actions.ts"
+        },
+        "app/librarian/books/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/librarian/books/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getCategories",
+          "filename": "Downloads/libralink-final/lib/actions/book-actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/books/page": "rsc",
+        "app/dashboard/page": "rsc",
+        "app/librarian/books/page": "rsc"
+      },
+      "filename": "Downloads/libralink-final/lib/actions/book-actions.ts",
+      "exportedName": "getCategories"
+    },
+    "404ea89959b05448c42ecafd4c270e395aa206b957": {
+      "workers": {
+        "app/admin/books/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/books/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "createBook",
+          "filename": "Downloads/libralink-final/lib/actions/book-actions.ts"
+        },
+        "app/dashboard/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/dashboard/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Downloads/libralink-final/lib/actions/reservation-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "createBook",
+          "filename": "Downloads/libralink-final/lib/actions/book-actions.ts"
+        },
+        "app/librarian/books/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/librarian/books/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "createBook",
+          "filename": "Downloads/libralink-final/lib/actions/book-actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/books/page": "action-browser",
+        "app/dashboard/page": "rsc",
+        "app/librarian/books/page": "action-browser"
+      },
+      "filename": "Downloads/libralink-final/lib/actions/book-actions.ts",
+      "exportedName": "createBook"
+    },
+    "406fa4922179810feef08e874f9caaf2f81ca00f3a": {
+      "workers": {
+        "app/admin/books/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/books/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getPopularBooks",
+          "filename": "Downloads/libralink-final/lib/actions/book-actions.ts"
+        },
+        "app/dashboard/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/dashboard/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Downloads/libralink-final/lib/actions/reservation-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getPopularBooks",
+          "filename": "Downloads/libralink-final/lib/actions/book-actions.ts"
+        },
+        "app/librarian/books/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/librarian/books/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getPopularBooks",
+          "filename": "Downloads/libralink-final/lib/actions/book-actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/books/page": "rsc",
+        "app/dashboard/page": "rsc",
+        "app/librarian/books/page": "rsc"
+      },
+      "filename": "Downloads/libralink-final/lib/actions/book-actions.ts",
+      "exportedName": "getPopularBooks"
+    },
+    "40bd35bd37d2a1e5dda37c96c80cfade6adfab9f9d": {
+      "workers": {
+        "app/admin/books/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/books/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "deleteBook",
+          "filename": "Downloads/libralink-final/lib/actions/book-actions.ts"
+        },
+        "app/dashboard/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/dashboard/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Downloads/libralink-final/lib/actions/reservation-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "deleteBook",
+          "filename": "Downloads/libralink-final/lib/actions/book-actions.ts"
+        },
+        "app/librarian/books/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/librarian/books/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "deleteBook",
+          "filename": "Downloads/libralink-final/lib/actions/book-actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/books/page": "action-browser",
+        "app/dashboard/page": "rsc",
+        "app/librarian/books/page": "action-browser"
+      },
+      "filename": "Downloads/libralink-final/lib/actions/book-actions.ts",
+      "exportedName": "deleteBook"
+    },
+    "40e4ffd8c4c8d15d0e3263ddc88167e7ae7c1c9bfe": {
+      "workers": {
+        "app/admin/books/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/books/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getBookById",
+          "filename": "Downloads/libralink-final/lib/actions/book-actions.ts"
+        },
+        "app/dashboard/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/dashboard/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Downloads/libralink-final/lib/actions/reservation-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getBookById",
+          "filename": "Downloads/libralink-final/lib/actions/book-actions.ts"
+        },
+        "app/librarian/books/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/librarian/books/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getBookById",
+          "filename": "Downloads/libralink-final/lib/actions/book-actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/books/page": "rsc",
+        "app/dashboard/page": "rsc",
+        "app/librarian/books/page": "rsc"
+      },
+      "filename": "Downloads/libralink-final/lib/actions/book-actions.ts",
+      "exportedName": "getBookById"
+    },
+    "60700cf9217b6946e2fd1d21fb73b1f36b97116a74": {
+      "workers": {
+        "app/admin/books/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/books/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getBooks",
+          "filename": "Downloads/libralink-final/lib/actions/book-actions.ts"
+        },
+        "app/dashboard/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/dashboard/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Downloads/libralink-final/lib/actions/reservation-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getBooks",
+          "filename": "Downloads/libralink-final/lib/actions/book-actions.ts"
+        },
+        "app/librarian/books/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/librarian/books/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getBooks",
+          "filename": "Downloads/libralink-final/lib/actions/book-actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/books/page": "rsc",
+        "app/dashboard/page": "rsc",
+        "app/librarian/books/page": "rsc"
+      },
+      "filename": "Downloads/libralink-final/lib/actions/book-actions.ts",
+      "exportedName": "getBooks"
+    },
+    "6072c5b4f86ec68ccaa1f202547eeda9b4904e0dd8": {
+      "workers": {
+        "app/admin/books/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/books/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateBook",
+          "filename": "Downloads/libralink-final/lib/actions/book-actions.ts"
+        },
+        "app/dashboard/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/dashboard/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Downloads/libralink-final/lib/actions/reservation-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateBook",
+          "filename": "Downloads/libralink-final/lib/actions/book-actions.ts"
+        },
+        "app/librarian/books/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/librarian/books/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateBook",
+          "filename": "Downloads/libralink-final/lib/actions/book-actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/books/page": "action-browser",
+        "app/dashboard/page": "rsc",
+        "app/librarian/books/page": "action-browser"
+      },
+      "filename": "Downloads/libralink-final/lib/actions/book-actions.ts",
+      "exportedName": "updateBook"
+    },
+    "4026174244ee103ca2b463a43976b72f275504b3db": {
+      "workers": {
+        "app/admin/transactions/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/transactions/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "createBorrowRequest",
+          "filename": "Downloads/libralink-final/lib/actions/borrow-actions.ts"
+        },
+        "app/dashboard/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/dashboard/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Downloads/libralink-final/lib/actions/reservation-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "createBorrowRequest",
+          "filename": "Downloads/libralink-final/lib/actions/borrow-actions.ts"
+        },
+        "app/librarian/borrow-requests/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/librarian/borrow-requests/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "createBorrowRequest",
+          "filename": "Downloads/libralink-final/lib/actions/borrow-actions.ts"
+        },
+        "app/librarian/borrowed/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/librarian/borrowed/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "createBorrowRequest",
+          "filename": "Downloads/libralink-final/lib/actions/borrow-actions.ts"
+        },
+        "app/profile/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/profile/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "createBorrowRequest",
+          "filename": "Downloads/libralink-final/lib/actions/borrow-actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/transactions/page": "rsc",
+        "app/dashboard/page": "action-browser",
+        "app/librarian/borrow-requests/page": "rsc",
+        "app/librarian/borrowed/page": "rsc",
+        "app/profile/page": "rsc"
+      },
+      "filename": "Downloads/libralink-final/lib/actions/borrow-actions.ts",
+      "exportedName": "createBorrowRequest"
+    },
+    "40122b38f8118df94fbf9b9d589221b5a39ae78e61": {
+      "workers": {
+        "app/admin/reservations/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/reservations/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/reservation-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "createReservation",
+          "filename": "Downloads/libralink-final/lib/actions/reservation-actions.ts"
+        },
+        "app/dashboard/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/dashboard/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Downloads/libralink-final/lib/actions/reservation-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "createReservation",
+          "filename": "Downloads/libralink-final/lib/actions/reservation-actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/reservations/page": "rsc",
+        "app/dashboard/page": "action-browser"
+      },
+      "filename": "Downloads/libralink-final/lib/actions/reservation-actions.ts",
+      "exportedName": "createReservation"
+    },
+    "002dfc57e17f3040d906f1618f7f011716a37c7140": {
+      "workers": {
+        "app/admin/fines/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/fines/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/fine-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getUserStats",
+          "filename": "Downloads/libralink-final/lib/actions/user-actions.ts"
+        },
+        "app/admin/roles/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/roles/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getUserStats",
+          "filename": "Downloads/libralink-final/lib/actions/user-actions.ts"
+        },
+        "app/admin/users/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/users/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getUserStats",
+          "filename": "Downloads/libralink-final/lib/actions/user-actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/fines/page": "rsc",
+        "app/admin/roles/page": "rsc",
+        "app/admin/users/page": "rsc"
+      },
+      "filename": "Downloads/libralink-final/lib/actions/user-actions.ts",
+      "exportedName": "getUserStats"
+    },
+    "00b4b05987895cea68741e2e86be49627147b72c10": {
+      "workers": {
+        "app/admin/fines/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/fines/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/fine-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getCurrentUserProfile",
+          "filename": "Downloads/libralink-final/lib/actions/user-actions.ts"
+        },
+        "app/admin/roles/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/roles/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getCurrentUserProfile",
+          "filename": "Downloads/libralink-final/lib/actions/user-actions.ts"
+        },
+        "app/admin/users/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/users/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getCurrentUserProfile",
+          "filename": "Downloads/libralink-final/lib/actions/user-actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/fines/page": "rsc",
+        "app/admin/roles/page": "rsc",
+        "app/admin/users/page": "rsc"
+      },
+      "filename": "Downloads/libralink-final/lib/actions/user-actions.ts",
+      "exportedName": "getCurrentUserProfile"
+    },
+    "4025cb2e350eb07b4eba920308a73191e729fd0606": {
+      "workers": {
+        "app/admin/fines/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/fines/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/fine-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateCurrentUserProfile",
+          "filename": "Downloads/libralink-final/lib/actions/user-actions.ts"
+        },
+        "app/admin/profile/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/profile/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/log-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Downloads/libralink-final/lib/actions/user-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateCurrentUserProfile",
+          "filename": "Downloads/libralink-final/lib/actions/user-actions.ts"
+        },
+        "app/admin/roles/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/roles/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateCurrentUserProfile",
+          "filename": "Downloads/libralink-final/lib/actions/user-actions.ts"
+        },
+        "app/admin/users/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/users/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateCurrentUserProfile",
+          "filename": "Downloads/libralink-final/lib/actions/user-actions.ts"
+        },
+        "app/librarian/profile/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/librarian/profile/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/log-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateCurrentUserProfile",
+          "filename": "Downloads/libralink-final/lib/actions/user-actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/fines/page": "rsc",
+        "app/admin/profile/page": "action-browser",
+        "app/admin/roles/page": "rsc",
+        "app/admin/users/page": "rsc",
+        "app/librarian/profile/page": "action-browser"
+      },
+      "filename": "Downloads/libralink-final/lib/actions/user-actions.ts",
+      "exportedName": "updateCurrentUserProfile"
+    },
+    "405f5e1e8f2c73d7175a9486c667d20f505619fcae": {
+      "workers": {
+        "app/admin/fines/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/fines/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/fine-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "deleteUser",
+          "filename": "Downloads/libralink-final/lib/actions/user-actions.ts"
+        },
+        "app/admin/roles/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/roles/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "deleteUser",
+          "filename": "Downloads/libralink-final/lib/actions/user-actions.ts"
+        },
+        "app/admin/users/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/users/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "deleteUser",
+          "filename": "Downloads/libralink-final/lib/actions/user-actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/fines/page": "rsc",
+        "app/admin/roles/page": "rsc",
+        "app/admin/users/page": "action-browser"
+      },
+      "filename": "Downloads/libralink-final/lib/actions/user-actions.ts",
+      "exportedName": "deleteUser"
+    },
+    "40ac003e4372cdd2f4d0841830ee207e4274ea6635": {
+      "workers": {
+        "app/admin/fines/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/fines/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/fine-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getUserById",
+          "filename": "Downloads/libralink-final/lib/actions/user-actions.ts"
+        },
+        "app/admin/roles/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/roles/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getUserById",
+          "filename": "Downloads/libralink-final/lib/actions/user-actions.ts"
+        },
+        "app/admin/users/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/users/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getUserById",
+          "filename": "Downloads/libralink-final/lib/actions/user-actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/fines/page": "rsc",
+        "app/admin/roles/page": "rsc",
+        "app/admin/users/page": "rsc"
+      },
+      "filename": "Downloads/libralink-final/lib/actions/user-actions.ts",
+      "exportedName": "getUserById"
+    },
+    "40ef54e69d864e7a56d9b15a2f992a5f82358b09d8": {
+      "workers": {
+        "app/admin/fines/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/fines/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/fine-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "createUser",
+          "filename": "Downloads/libralink-final/lib/actions/user-actions.ts"
+        },
+        "app/admin/roles/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/roles/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "createUser",
+          "filename": "Downloads/libralink-final/lib/actions/user-actions.ts"
+        },
+        "app/admin/users/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/users/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "createUser",
+          "filename": "Downloads/libralink-final/lib/actions/user-actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/fines/page": "rsc",
+        "app/admin/roles/page": "rsc",
+        "app/admin/users/page": "action-browser"
+      },
+      "filename": "Downloads/libralink-final/lib/actions/user-actions.ts",
+      "exportedName": "createUser"
+    },
+    "60059a4bb1a8288d6be54bf8ba35e1f62a8dfb4d9f": {
+      "workers": {
+        "app/admin/fines/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/fines/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/fine-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateUser",
+          "filename": "Downloads/libralink-final/lib/actions/user-actions.ts"
+        },
+        "app/admin/roles/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/roles/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateUser",
+          "filename": "Downloads/libralink-final/lib/actions/user-actions.ts"
+        },
+        "app/admin/users/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/users/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateUser",
+          "filename": "Downloads/libralink-final/lib/actions/user-actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/fines/page": "rsc",
+        "app/admin/roles/page": "rsc",
+        "app/admin/users/page": "rsc"
+      },
+      "filename": "Downloads/libralink-final/lib/actions/user-actions.ts",
+      "exportedName": "updateUser"
+    },
+    "60290273dae5f3aafaed269294549da1cfb0a758e0": {
+      "workers": {
+        "app/admin/fines/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/fines/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/fine-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateCurrentUserPassword",
+          "filename": "Downloads/libralink-final/lib/actions/user-actions.ts"
+        },
+        "app/admin/profile/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/profile/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/log-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Downloads/libralink-final/lib/actions/user-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateCurrentUserPassword",
+          "filename": "Downloads/libralink-final/lib/actions/user-actions.ts"
+        },
+        "app/admin/roles/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/roles/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateCurrentUserPassword",
+          "filename": "Downloads/libralink-final/lib/actions/user-actions.ts"
+        },
+        "app/admin/users/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/users/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateCurrentUserPassword",
+          "filename": "Downloads/libralink-final/lib/actions/user-actions.ts"
+        },
+        "app/librarian/profile/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/librarian/profile/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/log-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateCurrentUserPassword",
+          "filename": "Downloads/libralink-final/lib/actions/user-actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/fines/page": "rsc",
+        "app/admin/profile/page": "action-browser",
+        "app/admin/roles/page": "rsc",
+        "app/admin/users/page": "rsc",
+        "app/librarian/profile/page": "action-browser"
+      },
+      "filename": "Downloads/libralink-final/lib/actions/user-actions.ts",
+      "exportedName": "updateCurrentUserPassword"
+    },
+    "6032858d2e36f0fb8f1157dab06725dc22dc2e4846": {
+      "workers": {
+        "app/admin/fines/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/fines/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/fine-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateUserRole",
+          "filename": "Downloads/libralink-final/lib/actions/user-actions.ts"
+        },
+        "app/admin/roles/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/roles/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateUserRole",
+          "filename": "Downloads/libralink-final/lib/actions/user-actions.ts"
+        },
+        "app/admin/users/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/users/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateUserRole",
+          "filename": "Downloads/libralink-final/lib/actions/user-actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/fines/page": "rsc",
+        "app/admin/roles/page": "rsc",
+        "app/admin/users/page": "action-browser"
+      },
+      "filename": "Downloads/libralink-final/lib/actions/user-actions.ts",
+      "exportedName": "updateUserRole"
+    },
+    "6044ddc29960e3a370dee6e1c44187bc4f29cc0ead": {
+      "workers": {
+        "app/admin/fines/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/fines/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/fine-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getUsers",
+          "filename": "Downloads/libralink-final/lib/actions/user-actions.ts"
+        },
+        "app/admin/roles/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/roles/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getUsers",
+          "filename": "Downloads/libralink-final/lib/actions/user-actions.ts"
+        },
+        "app/admin/users/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/users/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getUsers",
+          "filename": "Downloads/libralink-final/lib/actions/user-actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/fines/page": "rsc",
+        "app/admin/roles/page": "rsc",
+        "app/admin/users/page": "rsc"
+      },
+      "filename": "Downloads/libralink-final/lib/actions/user-actions.ts",
+      "exportedName": "getUsers"
+    },
+    "604669950914dcd09f35e1d6c61de44c51d534e747": {
+      "workers": {
+        "app/admin/fines/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/fines/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/fine-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateUserStatus",
+          "filename": "Downloads/libralink-final/lib/actions/user-actions.ts"
+        },
+        "app/admin/roles/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/roles/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateUserStatus",
+          "filename": "Downloads/libralink-final/lib/actions/user-actions.ts"
+        },
+        "app/admin/users/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/users/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateUserStatus",
+          "filename": "Downloads/libralink-final/lib/actions/user-actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/fines/page": "rsc",
+        "app/admin/roles/page": "rsc",
+        "app/admin/users/page": "action-browser"
+      },
+      "filename": "Downloads/libralink-final/lib/actions/user-actions.ts",
+      "exportedName": "updateUserStatus"
+    },
+    "0071a36e414fab3f122a4f45ac96282fcd075618cf": {
+      "workers": {
+        "app/admin/transactions/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/transactions/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getBorrowStats",
+          "filename": "Downloads/libralink-final/lib/actions/borrow-actions.ts"
+        },
+        "app/librarian/borrow-requests/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/librarian/borrow-requests/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getBorrowStats",
+          "filename": "Downloads/libralink-final/lib/actions/borrow-actions.ts"
+        },
+        "app/librarian/borrowed/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/librarian/borrowed/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getBorrowStats",
+          "filename": "Downloads/libralink-final/lib/actions/borrow-actions.ts"
+        },
+        "app/profile/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/profile/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getBorrowStats",
+          "filename": "Downloads/libralink-final/lib/actions/borrow-actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/transactions/page": "rsc",
+        "app/librarian/borrow-requests/page": "rsc",
+        "app/librarian/borrowed/page": "rsc",
+        "app/profile/page": "rsc"
+      },
+      "filename": "Downloads/libralink-final/lib/actions/borrow-actions.ts",
+      "exportedName": "getBorrowStats"
+    },
+    "4043719a091caf0450dd53e6be3f4a627f07d575a4": {
+      "workers": {
+        "app/admin/transactions/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/transactions/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "returnBook",
+          "filename": "Downloads/libralink-final/lib/actions/borrow-actions.ts"
+        },
+        "app/librarian/borrow-requests/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/librarian/borrow-requests/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "returnBook",
+          "filename": "Downloads/libralink-final/lib/actions/borrow-actions.ts"
+        },
+        "app/librarian/borrowed/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/librarian/borrowed/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "returnBook",
+          "filename": "Downloads/libralink-final/lib/actions/borrow-actions.ts"
+        },
+        "app/profile/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/profile/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "returnBook",
+          "filename": "Downloads/libralink-final/lib/actions/borrow-actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/transactions/page": "action-browser",
+        "app/librarian/borrow-requests/page": "rsc",
+        "app/librarian/borrowed/page": "action-browser",
+        "app/profile/page": "rsc"
+      },
+      "filename": "Downloads/libralink-final/lib/actions/borrow-actions.ts",
+      "exportedName": "returnBook"
+    },
+    "40908e4bf5f3754bb0ced2ca67b1c942bfd5fec260": {
+      "workers": {
+        "app/admin/transactions/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/transactions/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getUserBorrowedBooks",
+          "filename": "Downloads/libralink-final/lib/actions/borrow-actions.ts"
+        },
+        "app/librarian/borrow-requests/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/librarian/borrow-requests/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getUserBorrowedBooks",
+          "filename": "Downloads/libralink-final/lib/actions/borrow-actions.ts"
+        },
+        "app/librarian/borrowed/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/librarian/borrowed/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getUserBorrowedBooks",
+          "filename": "Downloads/libralink-final/lib/actions/borrow-actions.ts"
+        },
+        "app/profile/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/profile/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getUserBorrowedBooks",
+          "filename": "Downloads/libralink-final/lib/actions/borrow-actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/transactions/page": "rsc",
+        "app/librarian/borrow-requests/page": "rsc",
+        "app/librarian/borrowed/page": "rsc",
+        "app/profile/page": "rsc"
+      },
+      "filename": "Downloads/libralink-final/lib/actions/borrow-actions.ts",
+      "exportedName": "getUserBorrowedBooks"
+    },
+    "409b1ad274f434a77440b6c0538f576aa444849562": {
+      "workers": {
+        "app/admin/transactions/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/transactions/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getBorrowRequests",
+          "filename": "Downloads/libralink-final/lib/actions/borrow-actions.ts"
+        },
+        "app/librarian/borrow-requests/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/librarian/borrow-requests/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getBorrowRequests",
+          "filename": "Downloads/libralink-final/lib/actions/borrow-actions.ts"
+        },
+        "app/librarian/borrowed/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/librarian/borrowed/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getBorrowRequests",
+          "filename": "Downloads/libralink-final/lib/actions/borrow-actions.ts"
+        },
+        "app/profile/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/profile/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getBorrowRequests",
+          "filename": "Downloads/libralink-final/lib/actions/borrow-actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/transactions/page": "rsc",
+        "app/librarian/borrow-requests/page": "rsc",
+        "app/librarian/borrowed/page": "rsc",
+        "app/profile/page": "rsc"
+      },
+      "filename": "Downloads/libralink-final/lib/actions/borrow-actions.ts",
+      "exportedName": "getBorrowRequests"
+    },
+    "6037ba2a2db9f36b303c7b627ad7645778563f98a1": {
+      "workers": {
+        "app/admin/transactions/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/transactions/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "approveBorrowRequest",
+          "filename": "Downloads/libralink-final/lib/actions/borrow-actions.ts"
+        },
+        "app/librarian/borrow-requests/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/librarian/borrow-requests/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "approveBorrowRequest",
+          "filename": "Downloads/libralink-final/lib/actions/borrow-actions.ts"
+        },
+        "app/librarian/borrowed/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/librarian/borrowed/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "approveBorrowRequest",
+          "filename": "Downloads/libralink-final/lib/actions/borrow-actions.ts"
+        },
+        "app/profile/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/profile/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "approveBorrowRequest",
+          "filename": "Downloads/libralink-final/lib/actions/borrow-actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/transactions/page": "rsc",
+        "app/librarian/borrow-requests/page": "action-browser",
+        "app/librarian/borrowed/page": "rsc",
+        "app/profile/page": "rsc"
+      },
+      "filename": "Downloads/libralink-final/lib/actions/borrow-actions.ts",
+      "exportedName": "approveBorrowRequest"
+    },
+    "60a80dd0568c70a264ff5703794a0e41a75b30dac1": {
+      "workers": {
+        "app/admin/transactions/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/transactions/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "declineBorrowRequest",
+          "filename": "Downloads/libralink-final/lib/actions/borrow-actions.ts"
+        },
+        "app/librarian/borrow-requests/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/librarian/borrow-requests/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "declineBorrowRequest",
+          "filename": "Downloads/libralink-final/lib/actions/borrow-actions.ts"
+        },
+        "app/librarian/borrowed/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/librarian/borrowed/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "declineBorrowRequest",
+          "filename": "Downloads/libralink-final/lib/actions/borrow-actions.ts"
+        },
+        "app/profile/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/profile/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/borrow-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "declineBorrowRequest",
+          "filename": "Downloads/libralink-final/lib/actions/borrow-actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/transactions/page": "rsc",
+        "app/librarian/borrow-requests/page": "action-browser",
+        "app/librarian/borrowed/page": "rsc",
+        "app/profile/page": "rsc"
+      },
+      "filename": "Downloads/libralink-final/lib/actions/borrow-actions.ts",
+      "exportedName": "declineBorrowRequest"
+    },
+    "4048c930091b7e2b59e46924883242a8844172baaa": {
+      "workers": {
+        "app/admin/profile/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/profile/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/log-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Downloads/libralink-final/lib/actions/user-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "createLog",
+          "filename": "Downloads/libralink-final/lib/actions/log-actions.ts"
+        },
+        "app/librarian/profile/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/librarian/profile/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/log-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "createLog",
+          "filename": "Downloads/libralink-final/lib/actions/log-actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/profile/page": "rsc",
+        "app/librarian/profile/page": "rsc"
+      },
+      "filename": "Downloads/libralink-final/lib/actions/log-actions.ts",
+      "exportedName": "createLog"
+    },
+    "78dfa0255395883821326527b9aaf5413c631847da": {
+      "workers": {
+        "app/admin/profile/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/profile/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/log-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Downloads/libralink-final/lib/actions/user-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getSystemLogs",
+          "filename": "Downloads/libralink-final/lib/actions/log-actions.ts"
+        },
+        "app/librarian/profile/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/librarian/profile/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/log-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getSystemLogs",
+          "filename": "Downloads/libralink-final/lib/actions/log-actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/profile/page": "rsc",
+        "app/librarian/profile/page": "rsc"
+      },
+      "filename": "Downloads/libralink-final/lib/actions/log-actions.ts",
+      "exportedName": "getSystemLogs"
+    },
+    "00e83c02f96fefd13aa0d1a9b9572c008e416e9310": {
+      "workers": {
+        "app/admin/reservations/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/reservations/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/reservation-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getReservationStats",
+          "filename": "Downloads/libralink-final/lib/actions/reservation-actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/reservations/page": "rsc"
+      },
+      "filename": "Downloads/libralink-final/lib/actions/reservation-actions.ts",
+      "exportedName": "getReservationStats"
+    },
+    "40aec17dc49f6e52ad073e816d10af6161ded9059e": {
+      "workers": {
+        "app/admin/reservations/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/reservations/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/reservation-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "cancelReservation",
+          "filename": "Downloads/libralink-final/lib/actions/reservation-actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/reservations/page": "action-browser"
+      },
+      "filename": "Downloads/libralink-final/lib/actions/reservation-actions.ts",
+      "exportedName": "cancelReservation"
+    },
+    "40b8b7b14b1ed2a0bf8446ca5e82194f30cb31f226": {
+      "workers": {
+        "app/admin/reservations/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/reservations/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/reservation-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getUserReservations",
+          "filename": "Downloads/libralink-final/lib/actions/reservation-actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/reservations/page": "rsc"
+      },
+      "filename": "Downloads/libralink-final/lib/actions/reservation-actions.ts",
+      "exportedName": "getUserReservations"
+    },
+    "40e0e0088c38acd0590cc0d33666036d3678d323eb": {
+      "workers": {
+        "app/admin/reservations/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/reservations/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/reservation-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getReservations",
+          "filename": "Downloads/libralink-final/lib/actions/reservation-actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/reservations/page": "rsc"
+      },
+      "filename": "Downloads/libralink-final/lib/actions/reservation-actions.ts",
+      "exportedName": "getReservations"
+    },
+    "40ec7ae5fab8f1376970927294cc117d6b35897a5f": {
+      "workers": {
+        "app/admin/reservations/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/reservations/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/reservation-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "fulfillReservation",
+          "filename": "Downloads/libralink-final/lib/actions/reservation-actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/reservations/page": "action-browser"
+      },
+      "filename": "Downloads/libralink-final/lib/actions/reservation-actions.ts",
+      "exportedName": "fulfillReservation"
+    },
+    "00a9cbf1cf79c4b3dfb7ae5afbcc8624254935c826": {
+      "workers": {
+        "app/admin/fines/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/fines/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/fine-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getFineStats",
+          "filename": "Downloads/libralink-final/lib/actions/fine-actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/fines/page": "rsc"
+      },
+      "filename": "Downloads/libralink-final/lib/actions/fine-actions.ts",
+      "exportedName": "getFineStats"
+    },
+    "403181c1cb94116cb18ad5267249fa221fd55a51c7": {
+      "workers": {
+        "app/admin/fines/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/fines/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/fine-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getFines",
+          "filename": "Downloads/libralink-final/lib/actions/fine-actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/fines/page": "rsc"
+      },
+      "filename": "Downloads/libralink-final/lib/actions/fine-actions.ts",
+      "exportedName": "getFines"
+    },
+    "404790c99f7255e15f4292f87232b18742bc4acc0b": {
+      "workers": {
+        "app/admin/fines/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/fines/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/fine-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getUserFines",
+          "filename": "Downloads/libralink-final/lib/actions/fine-actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/fines/page": "rsc"
+      },
+      "filename": "Downloads/libralink-final/lib/actions/fine-actions.ts",
+      "exportedName": "getUserFines"
+    },
+    "4055a0a36da41ca892b7a50f76b59f063df758dcbc": {
+      "workers": {
+        "app/admin/fines/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/fines/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/fine-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "deleteFine",
+          "filename": "Downloads/libralink-final/lib/actions/fine-actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/fines/page": "action-browser"
+      },
+      "filename": "Downloads/libralink-final/lib/actions/fine-actions.ts",
+      "exportedName": "deleteFine"
+    },
+    "405a90e9e1341ba0267e8f15e57acab32bac5389d3": {
+      "workers": {
+        "app/admin/fines/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/fines/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/fine-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "markFinePaid",
+          "filename": "Downloads/libralink-final/lib/actions/fine-actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/fines/page": "action-browser"
+      },
+      "filename": "Downloads/libralink-final/lib/actions/fine-actions.ts",
+      "exportedName": "markFinePaid"
+    },
+    "406b95f8c151d6a73a9ac37b0aab5670511eaf8e83": {
+      "workers": {
+        "app/admin/fines/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/fines/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/fine-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "createFine",
+          "filename": "Downloads/libralink-final/lib/actions/fine-actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/fines/page": "action-browser"
+      },
+      "filename": "Downloads/libralink-final/lib/actions/fine-actions.ts",
+      "exportedName": "createFine"
+    },
+    "6010815c19b235655b94c72b738c6a5962d66a9a4b": {
+      "workers": {
+        "app/admin/fines/page": {
+          "moduleId": "[project]/Downloads/libralink-final/.next-internal/server/app/admin/fines/page/actions.js { ACTIONS_MODULE0 => \"[project]/Downloads/libralink-final/lib/actions/fine-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Downloads/libralink-final/lib/actions/user-actions.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Downloads/libralink-final/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateFine",
+          "filename": "Downloads/libralink-final/lib/actions/fine-actions.ts"
+        }
+      },
+      "layer": {
+        "app/admin/fines/page": "rsc"
+      },
+      "filename": "Downloads/libralink-final/lib/actions/fine-actions.ts",
+      "exportedName": "updateFine"
     }
   },
   "edge": {},
-  "encryptionKey": "hdcIdXYQekLjeZBl+ofrHTrlrb6LjyoRMC0bsR05X1c="
+  "encryptionKey": "+1uNfdL4UjGyA5FLXSf8zX2d87Z29UsE0WcLSQW6HNk="
 }
