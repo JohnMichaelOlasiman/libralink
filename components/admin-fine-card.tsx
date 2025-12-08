@@ -36,6 +36,7 @@ export function AdminFineCard({
           <div className={`p-3 rounded-xl ${status === "paid" ? "bg-green-500/20" : "bg-red-500/20"}`}>
             <DollarSign className={`w-6 h-6 ${status === "paid" ? "text-green-400" : "text-red-400"}`} />
           </div>
+
           <div>
             <div className="flex items-center gap-2 mb-1">
               <span
@@ -45,20 +46,26 @@ export function AdminFineCard({
               >
                 {status === "paid" ? "Paid" : "Unpaid"}
               </span>
+
               <span className="px-2 py-0.5 rounded text-xs font-medium bg-secondary text-muted-foreground">
                 {reason}
               </span>
             </div>
-            <h3 className="font-semibold text-foreground">${amount.toFixed(2)}</h3>
+
+            {/* PESO FIX */}
+            <h3 className="font-semibold text-foreground">₱{amount.toFixed(2)}</h3>
+
             <div className="flex items-center gap-4 text-sm text-muted-foreground mt-1">
               <span className="flex items-center gap-1">
                 <User className="w-3 h-3" />
                 {studentName}
               </span>
+
               <span className="flex items-center gap-1">
                 <Book className="w-3 h-3" />
                 {bookTitle}
               </span>
+
               <span className="flex items-center gap-1">
                 <Calendar className="w-3 h-3" />
                 {dateIssued}
@@ -74,9 +81,11 @@ export function AdminFineCard({
               Mark Paid
             </Button>
           )}
+
           <Button variant="ghost" size="icon" onClick={() => onEdit?.(id)} className="h-8 w-8">
             <Edit className="w-4 h-4" />
           </Button>
+
           <Button
             variant="ghost"
             size="icon"

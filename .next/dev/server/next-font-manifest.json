@@ -8,10 +8,6 @@
       "static/media/03fc1b4a8d284b5e-s.p.af4fcd24.woff2",
       "static/media/797e433ab948586e-s.p.dbea232f.woff2"
     ],
-    "[project]/Downloads/libralink-final/app/admin/logs/page": [
-      "static/media/03fc1b4a8d284b5e-s.p.af4fcd24.woff2",
-      "static/media/797e433ab948586e-s.p.dbea232f.woff2"
-    ],
     "[project]/Downloads/libralink-final/app/admin/page": [
       "static/media/03fc1b4a8d284b5e-s.p.af4fcd24.woff2",
       "static/media/797e433ab948586e-s.p.dbea232f.woff2"
@@ -44,26 +40,6 @@
       "static/media/03fc1b4a8d284b5e-s.p.af4fcd24.woff2",
       "static/media/797e433ab948586e-s.p.dbea232f.woff2"
     ],
-    "[project]/Downloads/libralink-final/app/librarian/books/page": [
-      "static/media/03fc1b4a8d284b5e-s.p.af4fcd24.woff2",
-      "static/media/797e433ab948586e-s.p.dbea232f.woff2"
-    ],
-    "[project]/Downloads/libralink-final/app/librarian/borrow-requests/page": [
-      "static/media/03fc1b4a8d284b5e-s.p.af4fcd24.woff2",
-      "static/media/797e433ab948586e-s.p.dbea232f.woff2"
-    ],
-    "[project]/Downloads/libralink-final/app/librarian/borrowed/page": [
-      "static/media/03fc1b4a8d284b5e-s.p.af4fcd24.woff2",
-      "static/media/797e433ab948586e-s.p.dbea232f.woff2"
-    ],
-    "[project]/Downloads/libralink-final/app/librarian/page": [
-      "static/media/03fc1b4a8d284b5e-s.p.af4fcd24.woff2",
-      "static/media/797e433ab948586e-s.p.dbea232f.woff2"
-    ],
-    "[project]/Downloads/libralink-final/app/librarian/profile/page": [
-      "static/media/03fc1b4a8d284b5e-s.p.af4fcd24.woff2",
-      "static/media/797e433ab948586e-s.p.dbea232f.woff2"
-    ],
     "[project]/Downloads/libralink-final/app/login/page": [
       "static/media/03fc1b4a8d284b5e-s.p.af4fcd24.woff2",
       "static/media/797e433ab948586e-s.p.dbea232f.woff2"
@@ -73,10 +49,6 @@
       "static/media/797e433ab948586e-s.p.dbea232f.woff2"
     ],
     "[project]/Downloads/libralink-final/app/profile/page": [
-      "static/media/03fc1b4a8d284b5e-s.p.af4fcd24.woff2",
-      "static/media/797e433ab948586e-s.p.dbea232f.woff2"
-    ],
-    "[project]/Downloads/libralink-final/app/register/page": [
       "static/media/03fc1b4a8d284b5e-s.p.af4fcd24.woff2",
       "static/media/797e433ab948586e-s.p.dbea232f.woff2"
     ]

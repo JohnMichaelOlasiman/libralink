@@ -1,474 +1,919 @@
-[00:00:01.976] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\lib\patch-incorrect-lockfile.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:01.978] Server  ERROR   SyntaxError: Unexpected end of JSON input
-[00:00:02.844] Server  LOG      ✓ Ready in 2s
-[00:00:07.137] Server  LOG      ○ Compiling /login ...
-[00:00:13.062] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:13.445] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:13.445] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/login","route":"/login"}
-[00:00:13.446] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765067829706}
-[00:06:07.183] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/librarian color: rgb(120, 120, 120) color: inherit {"dp":"/librarian","o":"http://localhost:3000/librarian","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765068183098}
-[00:06:45.358] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765068221627}
-[00:58:44.180] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/librarian color: rgb(120, 120, 120) color: inherit {"dp":"/librarian","o":"http://localhost:3000/librarian","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765071340318}
-[00:59:53.406] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765071409669}
-[01:07:28.476] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard","o":"http://localhost:3000/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765071864744}
-[01:07:35.691] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765071871963}
-[01:07:42.444] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin color: rgb(120, 120, 120) color: inherit {"dp":"/admin","o":"http://localhost:3000/admin","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765071878715}
-[01:08:17.515] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/users color: rgb(120, 120, 120) color: inherit {"dp":"/admin/users","o":"http://localhost:3000/admin/users","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765071913786}
-[01:08:26.183] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/books color: rgb(120, 120, 120) color: inherit {"dp":"/admin/books","o":"http://localhost:3000/admin/books","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765071922452}
-[01:08:36.586] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[01:08:36.586] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[01:08:41.315] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765071937577}
-[01:08:58.549] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/librarian color: rgb(120, 120, 120) color: inherit {"dp":"/librarian","o":"http://localhost:3000/librarian","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765071954818}
-[01:09:06.467] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/librarian/books color: rgb(120, 120, 120) color: inherit {"dp":"/librarian/books","o":"http://localhost:3000/librarian/books","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765071962739}
-[01:09:13.449] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/librarian/borrow-requests color: rgb(120, 120, 120) color: inherit {"dp":"/librarian/borrow-requests","o":"http://localhost:3000/librarian/borrow-requests","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765071969716}
-[01:09:19.905] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/librarian/borrowed color: rgb(120, 120, 120) color: inherit {"dp":"/librarian/borrowed","o":"http://localhost:3000/librarian/borrowed","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765071976088}
-[01:09:23.419] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__e8a5d8fc._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:09:23.425] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__4337d511._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:09:23.426] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__d650e95a._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:09:23.430] Server  ERROR   Get system logs error: Error: Forbidden
-[01:09:24.179] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/librarian/profile color: rgb(120, 120, 120) color: inherit {"dp":"/librarian/profile","o":"http://localhost:3000/librarian/profile","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765071980306}
-[01:11:41.674] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/librarian color: rgb(120, 120, 120) color: inherit {"dp":"/librarian","o":"http://localhost:3000/librarian","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765072117945}
-[01:12:02.814] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765072139083}
-[01:12:09.603] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin color: rgb(120, 120, 120) color: inherit {"dp":"/admin","o":"http://localhost:3000/admin","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765072145870}
-[01:14:25.358] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/users color: rgb(120, 120, 120) color: inherit {"dp":"/admin/users","o":"http://localhost:3000/admin/users","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765072281620}
-[01:14:32.249] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/roles color: rgb(120, 120, 120) color: inherit {"dp":"/admin/roles","o":"http://localhost:3000/admin/roles","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765072288512}
-[01:14:35.044] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/books color: rgb(120, 120, 120) color: inherit {"dp":"/admin/books","o":"http://localhost:3000/admin/books","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765072291308}
-[01:14:38.328] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/users color: rgb(120, 120, 120) color: inherit {"dp":"/admin/users","o":"http://localhost:3000/admin/users","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765072294597}
-[01:14:42.035] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin color: rgb(120, 120, 120) color: inherit {"dp":"/admin","o":"http://localhost:3000/admin","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765072298253}
-[01:15:12.160] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/users color: rgb(120, 120, 120) color: inherit {"dp":"/admin/users","o":"http://localhost:3000/admin/users","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765072328418}
-[01:29:16.266] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/roles color: rgb(120, 120, 120) color: inherit {"dp":"/admin/roles","o":"http://localhost:3000/admin/roles","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765073172520}
-[01:29:17.383] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/books color: rgb(120, 120, 120) color: inherit {"dp":"/admin/books","o":"http://localhost:3000/admin/books","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765073173653}
-[01:32:58.248] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/transactions color: rgb(120, 120, 120) color: inherit {"dp":"/admin/transactions","o":"http://localhost:3000/admin/transactions","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765073394507}
-[01:33:39.783] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/profile color: rgb(120, 120, 120) color: inherit {"dp":"/admin/profile","o":"http://localhost:3000/admin/profile","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765073436053}
-[01:34:45.103] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin color: rgb(120, 120, 120) color: inherit {"dp":"/admin","o":"http://localhost:3000/admin","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765073501370}
-[01:44:53.586] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/users color: rgb(120, 120, 120) color: inherit {"dp":"/admin/users","o":"http://localhost:3000/admin/users","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765074109849}
-[01:45:00.169] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:45:00.523] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[01:45:00.523] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/login","route":"/login"}
-[01:45:00.523] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765074116796}
-[01:45:08.053] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard","o":"http://localhost:3000/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765074124301}
-[01:45:32.405] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/profile color: rgb(120, 120, 120) color: inherit {"dp":"/profile","o":"http://localhost:3000/profile","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765074148659}
-[01:45:35.754] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765074152025}
-[01:45:42.526] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/librarian color: rgb(120, 120, 120) color: inherit {"dp":"/librarian","o":"http://localhost:3000/librarian","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765074158791}
-[01:45:44.449] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/librarian/books color: rgb(120, 120, 120) color: inherit {"dp":"/librarian/books","o":"http://localhost:3000/librarian/books","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765074160710}
-[01:45:50.723] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/librarian/borrow-requests color: rgb(120, 120, 120) color: inherit {"dp":"/librarian/borrow-requests","o":"http://localhost:3000/librarian/borrow-requests","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765074166980}
-[01:45:55.549] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/librarian/borrowed color: rgb(120, 120, 120) color: inherit {"dp":"/librarian/borrowed","o":"http://localhost:3000/librarian/borrowed","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765074171818}
-[01:45:58.839] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765074175105}
-[01:46:05.289] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin color: rgb(120, 120, 120) color: inherit {"dp":"/admin","o":"http://localhost:3000/admin","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765074181557}
-[01:46:11.403] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/users color: rgb(120, 120, 120) color: inherit {"dp":"/admin/users","o":"http://localhost:3000/admin/users","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765074187671}
-[01:46:15.211] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/roles color: rgb(120, 120, 120) color: inherit {"dp":"/admin/roles","o":"http://localhost:3000/admin/roles","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765074191472}
-[01:46:38.739] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin color: rgb(120, 120, 120) color: inherit {"dp":"/admin","o":"http://localhost:3000/admin","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765074215006}
-[01:46:59.176] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/users color: rgb(120, 120, 120) color: inherit {"dp":"/admin/users","o":"http://localhost:3000/admin/users","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765074235439}
-[01:48:05.602] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/transactions color: rgb(120, 120, 120) color: inherit {"dp":"/admin/transactions","o":"http://localhost:3000/admin/transactions","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765074301862}
-[01:48:19.787] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/transactions color: rgb(120, 120, 120) color: inherit {"dp":"/admin/transactions","o":"http://localhost:3000/admin/transactions","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765074316053}
-[01:48:26.349] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:48:26.479] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[01:48:26.480] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/admin/transactions","route":"/admin/transactions"}
-[01:48:26.480] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/transactions color: rgb(120, 120, 120) color: inherit {"dp":"/admin/transactions","o":"http://localhost:3000/admin/transactions","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765074322750}
-[01:48:33.181] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/reservations color: rgb(120, 120, 120) color: inherit {"dp":"/admin/reservations","o":"http://localhost:3000/admin/reservations","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765074328878}
-[01:48:34.499] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/reservations color: rgb(120, 120, 120) color: inherit {"dp":"/admin/reservations","o":"http://localhost:3000/admin/reservations","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765074330766}
-[01:48:39.176] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/fines color: rgb(120, 120, 120) color: inherit {"dp":"/admin/fines","o":"http://localhost:3000/admin/fines","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765074334993}
-[01:48:40.450] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/books color: rgb(120, 120, 120) color: inherit {"dp":"/admin/books","o":"http://localhost:3000/admin/books","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765074336715}
-[01:48:42.850] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/books color: rgb(120, 120, 120) color: inherit {"dp":"/admin/books","o":"http://localhost:3000/admin/books","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765074339111}
-[01:48:45.301] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/roles color: rgb(120, 120, 120) color: inherit {"dp":"/admin/roles","o":"http://localhost:3000/admin/roles","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765074341552}
-[01:49:05.301] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/profile color: rgb(120, 120, 120) color: inherit {"dp":"/admin/profile","o":"http://localhost:3000/admin/profile","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765074361571}
-[01:52:03.034] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin color: rgb(120, 120, 120) color: inherit {"dp":"/admin","o":"http://localhost:3000/admin","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765074539280}
-[01:52:03.922] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/users color: rgb(120, 120, 120) color: inherit {"dp":"/admin/users","o":"http://localhost:3000/admin/users","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765074540128}
-[01:52:05.915] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/roles color: rgb(120, 120, 120) color: inherit {"dp":"/admin/roles","o":"http://localhost:3000/admin/roles","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765074542178}
-[01:52:07.147] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/books color: rgb(120, 120, 120) color: inherit {"dp":"/admin/books","o":"http://localhost:3000/admin/books","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765074543410}
-[01:52:12.760] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/transactions color: rgb(120, 120, 120) color: inherit {"dp":"/admin/transactions","o":"http://localhost:3000/admin/transactions","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765074549024}
-[01:52:16.046] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/reservations color: rgb(120, 120, 120) color: inherit {"dp":"/admin/reservations","o":"http://localhost:3000/admin/reservations","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765074552315}
-[01:52:17.398] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/fines color: rgb(120, 120, 120) color: inherit {"dp":"/admin/fines","o":"http://localhost:3000/admin/fines","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765074553663}
-[01:52:20.964] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/logs color: rgb(120, 120, 120) color: inherit {"dp":"/admin/logs","o":"http://localhost:3000/admin/logs","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765074557229}
-[01:52:22.614] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/books color: rgb(120, 120, 120) color: inherit {"dp":"/admin/books","o":"http://localhost:3000/admin/books","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765074558884}
-[01:52:30.783] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\4958a__pnpm_5b4fd0d0._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:30.794] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__e8a5d8fc._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:30.795] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__90f223ae._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:30.965] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:30.968] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\7eba7_next_dist_cf710dd7._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:30.984] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:30.992] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:30.998] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:31.005] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:31.012] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:31.017] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:31.033] Server  ERROR   [v0] Database attempt 1/3 failed: NeonDbError: update or delete on table "books" violates foreign key constraint "borrow_requests_book_id_fkey" on table "borrow_requests"
-[01:52:31.402] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\4958a__pnpm_5b4fd0d0._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:31.403] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__e8a5d8fc._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:31.404] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__90f223ae._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:31.407] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:31.408] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\7eba7_next_dist_cf710dd7._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:31.409] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:31.411] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:31.412] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:31.413] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:31.416] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:31.418] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:31.420] Server  ERROR   [v0] Database attempt 2/3 failed: NeonDbError: update or delete on table "books" violates foreign key constraint "borrow_requests_book_id_fkey" on table "borrow_requests"
-[01:52:31.892] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\4958a__pnpm_5b4fd0d0._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:31.894] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__e8a5d8fc._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:31.895] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__90f223ae._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:31.899] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:31.901] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\7eba7_next_dist_cf710dd7._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:31.903] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:31.904] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:31.906] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:31.907] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:31.908] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:31.910] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:31.912] Server  ERROR   [v0] Database attempt 3/3 failed: NeonDbError: update or delete on table "books" violates foreign key constraint "borrow_requests_book_id_fkey" on table "borrow_requests"
-[01:52:31.915] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\4958a__pnpm_5b4fd0d0._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:31.916] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__e8a5d8fc._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:31.920] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__90f223ae._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:31.923] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:31.924] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\7eba7_next_dist_cf710dd7._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:31.925] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:31.926] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:31.927] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:31.929] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:31.930] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:31.932] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:31.933] Server  ERROR   Delete book error: NeonDbError: update or delete on table "books" violates foreign key constraint "borrow_requests_book_id_fkey" on table "borrow_requests"
-[01:52:44.076] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\4958a__pnpm_5b4fd0d0._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:44.077] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__e8a5d8fc._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:44.078] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__90f223ae._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:44.081] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:44.083] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\7eba7_next_dist_cf710dd7._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:44.084] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:44.086] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:44.088] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:44.089] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:44.091] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:44.093] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:44.095] Server  ERROR   [v0] Database attempt 1/3 failed: NeonDbError: update or delete on table "books" violates foreign key constraint "borrow_requests_book_id_fkey" on table "borrow_requests"
-[01:52:44.464] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\4958a__pnpm_5b4fd0d0._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:44.466] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__e8a5d8fc._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:44.467] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__90f223ae._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:44.471] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:44.472] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\7eba7_next_dist_cf710dd7._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:44.474] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:44.476] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:44.478] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:44.479] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:44.482] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:44.485] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:44.488] Server  ERROR   [v0] Database attempt 2/3 failed: NeonDbError: update or delete on table "books" violates foreign key constraint "borrow_requests_book_id_fkey" on table "borrow_requests"
-[01:52:44.969] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\4958a__pnpm_5b4fd0d0._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:44.970] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__e8a5d8fc._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:44.971] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__90f223ae._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:44.976] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:44.978] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\7eba7_next_dist_cf710dd7._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:44.981] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:44.983] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:44.986] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:44.988] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:44.990] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:44.992] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:44.994] Server  ERROR   [v0] Database attempt 3/3 failed: NeonDbError: update or delete on table "books" violates foreign key constraint "borrow_requests_book_id_fkey" on table "borrow_requests"
-[01:52:44.996] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\4958a__pnpm_5b4fd0d0._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:45.000] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__e8a5d8fc._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:45.006] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__90f223ae._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:45.012] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:45.016] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\7eba7_next_dist_cf710dd7._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:45.018] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:45.021] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:45.023] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:45.025] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:45.027] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:45.030] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:52:45.034] Server  ERROR   Delete book error: NeonDbError: update or delete on table "books" violates foreign key constraint "borrow_requests_book_id_fkey" on table "borrow_requests"
-[01:53:03.348] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765074599618}
-[01:53:17.646] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard","o":"http://localhost:3000/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765074613910}
-[01:53:26.106] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/profile color: rgb(120, 120, 120) color: inherit {"dp":"/profile","o":"http://localhost:3000/profile","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765074622377}
-[01:55:23.684] Server  LOG      ✓ Compiled in 95ms
-[01:57:27.794] Server  LOG      ✓ Compiled in 511ms
-[02:13:00.233] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765075796498}
-[02:13:22.115] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/librarian color: rgb(120, 120, 120) color: inherit {"dp":"/librarian","o":"http://localhost:3000/librarian","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765075818384}
-[02:14:23.423] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/librarian/books color: rgb(120, 120, 120) color: inherit {"dp":"/librarian/books","o":"http://localhost:3000/librarian/books","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765075879686}
-[02:14:38.845] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/librarian/borrow-requests color: rgb(120, 120, 120) color: inherit {"dp":"/librarian/borrow-requests","o":"http://localhost:3000/librarian/borrow-requests","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765075895107}
-[02:14:48.227] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/librarian/borrowed color: rgb(120, 120, 120) color: inherit {"dp":"/librarian/borrowed","o":"http://localhost:3000/librarian/borrowed","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765075904491}
-[02:15:13.532] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/librarian/books color: rgb(120, 120, 120) color: inherit {"dp":"/librarian/books","o":"http://localhost:3000/librarian/books","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765075929790}
-[02:15:26.326] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\4958a__pnpm_5b4fd0d0._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[02:15:26.328] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__e8a5d8fc._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[02:15:26.329] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__90f223ae._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[02:15:26.339] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[02:15:26.343] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\4958a__pnpm_de9d99ed._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[02:15:26.346] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[02:15:26.348] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[02:15:26.358] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[02:15:26.360] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[02:15:26.362] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[02:15:26.365] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[02:15:26.373] Server  ERROR   [v0] Database attempt 1/3 failed: NeonDbError: update or delete on table "books" violates foreign key constraint "borrow_requests_book_id_fkey" on table "borrow_requests"
-[02:15:26.834] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\4958a__pnpm_5b4fd0d0._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[02:15:26.836] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__e8a5d8fc._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[02:15:26.838] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__90f223ae._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[02:15:26.847] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[02:15:26.850] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\4958a__pnpm_de9d99ed._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[02:15:26.858] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[02:15:26.860] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[02:15:26.862] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[02:15:26.863] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[02:15:26.865] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[02:15:26.867] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[02:15:26.869] Server  ERROR   [v0] Database attempt 2/3 failed: NeonDbError: update or delete on table "books" violates foreign key constraint "borrow_requests_book_id_fkey" on table "borrow_requests"
-[02:15:27.338] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\4958a__pnpm_5b4fd0d0._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[02:15:27.339] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__e8a5d8fc._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[02:15:27.340] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__90f223ae._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[02:15:27.344] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[02:15:27.346] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\4958a__pnpm_de9d99ed._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[02:15:27.348] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[02:15:27.352] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[02:15:27.356] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[02:15:27.363] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[02:15:27.366] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[02:15:27.369] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[02:15:27.372] Server  ERROR   [v0] Database attempt 3/3 failed: NeonDbError: update or delete on table "books" violates foreign key constraint "borrow_requests_book_id_fkey" on table "borrow_requests"
-[02:15:27.375] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\4958a__pnpm_5b4fd0d0._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[02:15:27.377] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__e8a5d8fc._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[02:15:27.378] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__90f223ae._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[02:15:27.384] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[02:15:27.387] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\4958a__pnpm_de9d99ed._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[02:15:27.389] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[02:15:27.392] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[02:15:27.394] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[02:15:27.397] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[02:15:27.399] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[02:15:27.403] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[02:15:27.406] Server  ERROR   Delete book error: NeonDbError: update or delete on table "books" violates foreign key constraint "borrow_requests_book_id_fkey" on table "borrow_requests"
-[02:15:31.296] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765075947565}
-[02:15:46.705] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard","o":"http://localhost:3000/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765075962956}
-[02:16:06.576] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/book/1fbd9e3d-9774-4999-8cf2-a8fced0ec7ab color: rgb(120, 120, 120) color: inherit {"dp":"/book/[id]","o":"http://localhost:3000/book/1fbd9e3d-9774-4999-8cf2-a8fced0ec7ab","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765075982840}
-[02:16:15.172] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765075991122}
-[02:23:11.424] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/register color: rgb(120, 120, 120) color: inherit {"dp":"/register","o":"http://localhost:3000/register","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765076407690}
-[02:24:12.325] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard","o":"http://localhost:3000/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765076468594}
-[02:25:52.455] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/profile color: rgb(120, 120, 120) color: inherit {"dp":"/profile","o":"http://localhost:3000/profile","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765076568713}
-[02:26:01.813] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765076578080}
-[02:26:23.173] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin color: rgb(120, 120, 120) color: inherit {"dp":"/admin","o":"http://localhost:3000/admin","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765076598879}
-[02:27:36.488] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/roles color: rgb(120, 120, 120) color: inherit {"dp":"/admin/roles","o":"http://localhost:3000/admin/roles","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765076672748}
-[02:27:39.259] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/users color: rgb(120, 120, 120) color: inherit {"dp":"/admin/users","o":"http://localhost:3000/admin/users","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765076675531}
-[02:27:42.271] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[02:27:42.271] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[02:27:44.538] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[02:27:44.538] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[02:27:52.312] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[02:27:52.312] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[02:28:01.732] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765076698001}
-[02:28:20.002] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard","o":"http://localhost:3000/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765076716266}
-[02:28:29.242] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/profile color: rgb(120, 120, 120) color: inherit {"dp":"/profile","o":"http://localhost:3000/profile","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765076725511}
-[02:29:58.485] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765076814753}
-[02:30:18.854] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin color: rgb(120, 120, 120) color: inherit {"dp":"/admin","o":"http://localhost:3000/admin","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765076835122}
-[02:30:23.351] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765076839621}
-[02:30:24.885] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/register color: rgb(120, 120, 120) color: inherit {"dp":"/register","o":"http://localhost:3000/register","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765076841156}
-[03:18:31.364] Server  LOG      ✓ Compiled in 712ms
-[03:18:34.373] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\4958a__pnpm_f2a76ed3._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:18:34.378] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__d233ac09._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:18:34.379] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__a0abfe53._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:18:34.380] Server  ERROR   [v0] Database attempt 1/3 failed: NeonDbError: column b.deleted_at does not exist
-[03:18:34.442] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\4958a__pnpm_f2a76ed3._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:18:34.443] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__d233ac09._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:18:34.444] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__a0abfe53._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:18:34.445] Server  ERROR   [v0] Database attempt 1/3 failed: NeonDbError: column b.deleted_at does not exist
-[03:18:34.535] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\4958a__pnpm_f2a76ed3._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:18:34.536] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__d233ac09._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:18:34.536] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__a0abfe53._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:18:34.537] Server  ERROR   [v0] Database attempt 1/3 failed: NeonDbError: column b.deleted_at does not exist
-[03:18:34.542] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\4958a__pnpm_f2a76ed3._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:18:34.542] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__d233ac09._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:18:34.543] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__a0abfe53._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:18:34.544] Server  ERROR   [v0] Database attempt 1/3 failed: NeonDbError: column b.deleted_at does not exist
-[03:18:34.754] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\4958a__pnpm_f2a76ed3._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:18:34.755] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__d233ac09._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:18:34.756] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__a0abfe53._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:18:34.757] Server  ERROR   [v0] Database attempt 2/3 failed: NeonDbError: column b.deleted_at does not exist
-[03:18:34.823] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\4958a__pnpm_f2a76ed3._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:18:34.824] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__d233ac09._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:18:34.824] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__a0abfe53._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:18:34.825] Server  ERROR   [v0] Database attempt 2/3 failed: NeonDbError: column b.deleted_at does not exist
-[03:18:34.898] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\4958a__pnpm_f2a76ed3._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:18:34.899] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__d233ac09._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:18:34.900] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__a0abfe53._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:18:34.901] Server  ERROR   [v0] Database attempt 2/3 failed: NeonDbError: column b.deleted_at does not exist
-[03:18:34.906] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\4958a__pnpm_f2a76ed3._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:18:34.907] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__d233ac09._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:18:34.908] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__a0abfe53._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:18:34.909] Server  ERROR   [v0] Database attempt 2/3 failed: NeonDbError: column b.deleted_at does not exist
-[03:18:35.236] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\4958a__pnpm_f2a76ed3._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:18:35.237] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__d233ac09._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:18:35.237] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__a0abfe53._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:18:35.238] Server  ERROR   [v0] Database attempt 3/3 failed: NeonDbError: column b.deleted_at does not exist
-[03:18:35.257] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\4958a__pnpm_f2a76ed3._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:18:35.257] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__d233ac09._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:18:35.258] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__a0abfe53._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:18:35.259] Server  ERROR    ⨯ NeonDbError: column b.deleted_at does not exist
-[03:18:35.306] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\4958a__pnpm_f2a76ed3._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:18:35.307] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__d233ac09._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:18:35.307] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__a0abfe53._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:18:35.308] Server  ERROR   [v0] Database attempt 3/3 failed: NeonDbError: column b.deleted_at does not exist
-[03:18:35.318] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\4958a__pnpm_f2a76ed3._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:18:35.321] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__d233ac09._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:18:35.322] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__a0abfe53._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:18:35.324] Server  ERROR    ⨯ NeonDbError: column b.deleted_at does not exist
-[03:18:35.372] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\4958a__pnpm_f2a76ed3._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:18:35.373] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__d233ac09._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:18:35.374] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__a0abfe53._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:18:35.374] Server  ERROR   [v0] Database attempt 3/3 failed: NeonDbError: column b.deleted_at does not exist
-[03:18:35.405] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\4958a__pnpm_f2a76ed3._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:18:35.406] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__d233ac09._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:18:35.406] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__a0abfe53._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:18:35.407] Server  ERROR    ⨯ NeonDbError: column b.deleted_at does not exist
-[03:18:35.414] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\4958a__pnpm_f2a76ed3._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:18:35.417] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__d233ac09._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:18:35.418] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__a0abfe53._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:18:35.420] Server  ERROR   [v0] Database attempt 3/3 failed: NeonDbError: column b.deleted_at does not exist
-[03:18:35.430] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\4958a__pnpm_f2a76ed3._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:18:35.432] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__d233ac09._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:18:35.434] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__a0abfe53._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:18:35.436] Server  ERROR    ⨯ NeonDbError: column b.deleted_at does not exist
-[03:18:36.171] Browser ERROR   uncaughtError: NeonDbError: column b.deleted_at does not exist
-[03:18:52.250] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[03:18:52.493] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[03:18:52.505] Server  LOG      ✓ Compiled in 387ms
-[03:18:52.524] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[03:18:53.094] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[03:18:53.519] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\4958a__pnpm_f2a76ed3._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:18:53.521] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__d233ac09._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:18:53.523] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__a0abfe53._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:18:53.524] Server  ERROR   [v0] Database attempt 1/3 failed: NeonDbError: column b.deleted_at does not exist
-[03:18:54.008] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\4958a__pnpm_f2a76ed3._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:18:54.009] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__d233ac09._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:18:54.010] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__a0abfe53._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:18:54.011] Server  ERROR   [v0] Database attempt 2/3 failed: NeonDbError: column b.deleted_at does not exist
-[03:18:54.174] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[03:18:54.174] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/admin/books","route":"/admin/books"}
-[03:18:54.174] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/books color: rgb(120, 120, 120) color: inherit {"dp":"/admin/books","o":"http://localhost:3000/admin/books","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765079749712}
-[03:18:54.488] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\4958a__pnpm_f2a76ed3._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:18:54.489] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__d233ac09._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:18:54.489] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__a0abfe53._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:18:54.490] Server  ERROR   [v0] Database attempt 3/3 failed: NeonDbError: column b.deleted_at does not exist
-[03:18:54.495] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\4958a__pnpm_f2a76ed3._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:18:54.497] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__d233ac09._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:18:54.499] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__a0abfe53._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:18:54.502] Server  ERROR    ⨯ NeonDbError: column b.deleted_at does not exist
-[03:18:55.174] Browser ERROR   uncaughtError: NeonDbError: column b.deleted_at does not exist
-[03:19:23.106] Server  LOG      ✓ Compiled in 223ms
-[03:19:23.378] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[03:19:24.116] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[03:19:24.720] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\4958a__pnpm_f2a76ed3._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:19:24.722] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__d233ac09._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:19:24.723] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__a0abfe53._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:19:24.724] Server  ERROR   [v0] Database attempt 1/3 failed: NeonDbError: column b.deleted_at does not exist
-[03:19:25.122] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\4958a__pnpm_f2a76ed3._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:19:25.124] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__d233ac09._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:19:25.125] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__a0abfe53._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:19:25.126] Server  ERROR   [v0] Database attempt 2/3 failed: NeonDbError: column b.deleted_at does not exist
-[03:19:25.169] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[03:19:25.169] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/admin/books","route":"/admin/books"}
-[03:19:25.169] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/books color: rgb(120, 120, 120) color: inherit {"dp":"/admin/books","o":"http://localhost:3000/admin/books","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765079780632}
-[03:19:25.638] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\4958a__pnpm_f2a76ed3._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:19:25.641] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__d233ac09._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:19:25.644] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__a0abfe53._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:19:25.651] Server  ERROR   [v0] Database attempt 3/3 failed: NeonDbError: column b.deleted_at does not exist
-[03:19:25.708] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\4958a__pnpm_f2a76ed3._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:19:25.710] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__d233ac09._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:19:25.718] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__a0abfe53._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:19:25.721] Server  ERROR    ⨯ NeonDbError: column b.deleted_at does not exist
-[03:19:26.176] Browser ERROR   uncaughtError: NeonDbError: column b.deleted_at does not exist
-[03:19:41.796] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[03:19:41.911] Server  LOG      ✓ Compiled in 152ms
-[03:19:42.299] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[03:19:42.656] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\4958a__pnpm_f2a76ed3._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:19:42.657] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__d233ac09._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:19:42.658] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__a0abfe53._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:19:42.659] Server  ERROR   [v0] Database attempt 1/3 failed: NeonDbError: column b.deleted_at does not exist
-[03:19:43.024] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\4958a__pnpm_f2a76ed3._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:19:43.025] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__d233ac09._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:19:43.025] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__a0abfe53._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:19:43.026] Server  ERROR   [v0] Database attempt 2/3 failed: NeonDbError: column b.deleted_at does not exist
-[03:19:43.171] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[03:19:43.171] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/admin/books","route":"/admin/books"}
-[03:19:43.171] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/books color: rgb(120, 120, 120) color: inherit {"dp":"/admin/books","o":"http://localhost:3000/admin/books","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765079798742}
-[03:19:43.506] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\4958a__pnpm_f2a76ed3._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:19:43.508] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__d233ac09._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:19:43.510] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__a0abfe53._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:19:43.512] Server  ERROR   [v0] Database attempt 3/3 failed: NeonDbError: column b.deleted_at does not exist
-[03:19:43.533] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\4958a__pnpm_f2a76ed3._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:19:43.538] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__d233ac09._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:19:43.540] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__a0abfe53._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:19:43.543] Server  ERROR    ⨯ NeonDbError: column b.deleted_at does not exist
-[03:19:44.179] Browser ERROR   uncaughtError: NeonDbError: column b.deleted_at does not exist
-[03:20:37.252] Server  LOG      ✓ Compiled in 246ms
-[03:20:37.865] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[03:20:38.184] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[03:20:38.184] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/admin/books","route":"/admin/books"}
-[03:20:38.184] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/books color: rgb(120, 120, 120) color: inherit {"dp":"/admin/books","o":"http://localhost:3000/admin/books","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765079854389}
-[03:20:38.459] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\4958a__pnpm_f2a76ed3._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:20:38.462] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__d233ac09._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:20:38.465] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__a0abfe53._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:20:38.467] Server  ERROR   [v0] Database attempt 1/3 failed: NeonDbError: column b.deleted_at does not exist
-[03:20:38.987] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\4958a__pnpm_f2a76ed3._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:20:38.990] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__d233ac09._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:20:38.993] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__a0abfe53._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:20:38.997] Server  ERROR   [v0] Database attempt 2/3 failed: NeonDbError: column b.deleted_at does not exist
-[03:20:39.471] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\4958a__pnpm_f2a76ed3._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:20:39.473] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__d233ac09._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:20:39.475] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__a0abfe53._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:20:39.478] Server  ERROR   [v0] Database attempt 3/3 failed: NeonDbError: column b.deleted_at does not exist
-[03:20:39.488] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\4958a__pnpm_f2a76ed3._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:20:39.489] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__d233ac09._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:20:39.490] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__a0abfe53._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:20:39.490] Server  ERROR    ⨯ NeonDbError: column b.deleted_at does not exist
-[03:20:40.183] Browser ERROR   uncaughtError: NeonDbError: column b.deleted_at does not exist
-[03:20:48.286] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765079864553}
-[03:23:19.665] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[03:23:19.666] Server  LOG      ✓ Compiled in 167ms
-[03:23:20.696] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[03:23:21.181] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[03:23:21.181] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/admin/books","route":"/admin/books"}
-[03:23:21.181] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/books color: rgb(120, 120, 120) color: inherit {"dp":"/admin/books","o":"http://localhost:3000/admin/books","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765080017126}
-[03:23:21.281] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\4958a__pnpm_f2a76ed3._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:23:21.283] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__d233ac09._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:23:21.284] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__a0abfe53._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:23:21.285] Server  ERROR   [v0] Database attempt 1/3 failed: NeonDbError: column b.deleted_at does not exist
-[03:23:21.660] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\4958a__pnpm_f2a76ed3._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:23:21.662] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__d233ac09._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:23:21.665] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__a0abfe53._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:23:21.667] Server  ERROR   [v0] Database attempt 2/3 failed: NeonDbError: column b.deleted_at does not exist
-[03:23:22.136] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\4958a__pnpm_f2a76ed3._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:23:22.138] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__d233ac09._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:23:22.139] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__a0abfe53._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:23:22.140] Server  ERROR   [v0] Database attempt 3/3 failed: NeonDbError: column b.deleted_at does not exist
-[03:23:22.156] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\4958a__pnpm_f2a76ed3._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:23:22.158] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__d233ac09._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:23:22.160] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__a0abfe53._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:23:22.163] Server  ERROR    ⨯ NeonDbError: column b.deleted_at does not exist
-[03:23:23.178] Browser ERROR   uncaughtError: NeonDbError: column b.deleted_at does not exist
-[03:24:18.793] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\4958a__pnpm_26d883d1._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:24:18.794] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__7d81b537._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:24:18.796] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__339c9e9f._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:24:18.805] Server  ERROR   [v0] Database attempt 1/3 failed: NeonDbError: column "deleted_at" does not exist
-[03:24:19.178] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\4958a__pnpm_26d883d1._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:24:19.179] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__7d81b537._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:24:19.180] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__339c9e9f._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:24:19.184] Server  ERROR   [v0] Database attempt 2/3 failed: NeonDbError: column "deleted_at" does not exist
-[03:24:19.656] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\4958a__pnpm_26d883d1._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:24:19.658] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__7d81b537._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:24:19.659] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__339c9e9f._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:24:19.661] Server  ERROR   [v0] Database attempt 3/3 failed: NeonDbError: column "deleted_at" does not exist
-[03:24:19.670] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\4958a__pnpm_26d883d1._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:24:19.673] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__7d81b537._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:24:19.676] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\[root-of-the-server]__339c9e9f._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:24:19.679] Server  ERROR   Get library stats error: NeonDbError: column "deleted_at" does not exist
-[03:24:20.111] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin color: rgb(120, 120, 120) color: inherit {"dp":"/admin","o":"http://localhost:3000/admin","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765080076374}
-[03:24:31.003] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765080087272}
-[03:24:45.394] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[03:24:45.396] Server  LOG      ✓ Compiled in 293ms
-[03:24:45.622] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[03:24:46.170] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[03:24:46.170] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/admin/books","route":"/admin/books"}
-[03:24:46.171] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/books color: rgb(120, 120, 120) color: inherit {"dp":"/admin/books","o":"http://localhost:3000/admin/books","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765080102071}
-[03:25:16.952] Server  LOG      ✓ Compiled in 157ms
-[03:25:36.794] Server  LOG      ✓ Compiled in 120ms
-[03:25:46.470] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765080162737}
-[03:25:54.977] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard","o":"http://localhost:3000/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765080171245}
-[03:26:00.219] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765080176490}
+[00:00:03.112] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\lib\patch-incorrect-lockfile.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:03.117] Server  ERROR   SyntaxError: Unexpected end of JSON input
+[00:00:04.987] Server  LOG      ✓ Ready in 3.8s
+[00:00:10.302] Server  LOG      ○ Compiling / ...
+[00:00:18.259] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:18.509] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:18.509] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/login","route":"/login"}
+[00:00:18.509] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765188847310}
+[00:00:32.915] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin color: rgb(120, 120, 120) color: inherit {"dp":"/admin","o":"http://localhost:3000/admin","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765188861716}
+[00:00:37.303] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/books color: rgb(120, 120, 120) color: inherit {"dp":"/admin/books","o":"http://localhost:3000/admin/books","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765188866107}
+[00:00:45.525] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:00:45.525] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:00:51.217] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:00:51.217] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:00:58.285] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:00:58.285] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:01:09.679] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:01:09.679] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:01:20.261] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:01:20.261] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:01:43.410] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765188932216}
+[00:01:53.700] Server  ERROR    ⨯ ./Downloads/libralink-final/app/dashboard/page.tsx:6:1
+Export getFeaturedBook doesn't exist in target module
+  4 | import { Header } from "@/components/header"
+  5 | import { BookCard } from "@/components/book-card"
+> 6 | import { getFeaturedBook, getPopularBooks } from "@/lib/actions/book-actions"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { getSession } from "@/lib/auth"
+  8 | import { redirect } from "next/navigation"
+  9 | import { BorrowBookButton } from "@/components/borrow-book-button"
+
+The export getFeaturedBook was not found in module [project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript).
+Did you mean to import deleteBook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+
+
+./Downloads/libralink-final/app/dashboard/page.tsx:6:1
+Export getPopularBooks doesn't exist in target module
+  4 | import { Header } from "@/components/header"
+  5 | import { BookCard } from "@/components/book-card"
+> 6 | import { getFeaturedBook, getPopularBooks } from "@/lib/actions/book-actions"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { getSession } from "@/lib/auth"
+  8 | import { redirect } from "next/navigation"
+  9 | import { BorrowBookButton } from "@/components/borrow-book-button"
+
+The export getPopularBooks was not found in module [project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript).
+Did you mean to import updateBook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+
+[00:01:54.012] Browser ERROR   ./Downloads/libralink-final/app/dashboard/page.tsx:6:1
+Export getFeaturedBook doesn't exist in target module
+  4 | import { Header } from "@/components/header"
+  5 | import { BookCard } from "@/components/book-card"
+> 6 | import { getFeaturedBook, getPopularBooks } from "@/lib/actions/book-actions"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { getSession } from "@/lib/auth"
+  8 | import { redirect } from "next/navigation"
+  9 | import { BorrowBookButton } from "@/components/borrow-book-button"
+
+The export getFeaturedBook was not found in module [project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript).
+Did you mean to import deleteBook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:01:54.012] Browser ERROR   ./Downloads/libralink-final/app/dashboard/page.tsx:6:1
+Export getPopularBooks doesn't exist in target module
+  4 | import { Header } from "@/components/header"
+  5 | import { BookCard } from "@/components/book-card"
+> 6 | import { getFeaturedBook, getPopularBooks } from "@/lib/actions/book-actions"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { getSession } from "@/lib/auth"
+  8 | import { redirect } from "next/navigation"
+  9 | import { BorrowBookButton } from "@/components/borrow-book-button"
+
+The export getPopularBooks was not found in module [project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript).
+Did you mean to import updateBook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:01:54.459] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:54.677] Browser ERROR   ./Downloads/libralink-final/app/dashboard/page.tsx:6:1
+Export getFeaturedBook doesn't exist in target module
+  4 | import { Header } from "@/components/header"
+  5 | import { BookCard } from "@/components/book-card"
+> 6 | import { getFeaturedBook, getPopularBooks } from "@/lib/actions/book-actions"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { getSession } from "@/lib/auth"
+  8 | import { redirect } from "next/navigation"
+  9 | import { BorrowBookButton } from "@/components/borrow-book-button"
+
+The export getFeaturedBook was not found in module [project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript).
+Did you mean to import deleteBook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:01:54.677] Browser ERROR   ./Downloads/libralink-final/app/dashboard/page.tsx:6:1
+Export getPopularBooks doesn't exist in target module
+  4 | import { Header } from "@/components/header"
+  5 | import { BookCard } from "@/components/book-card"
+> 6 | import { getFeaturedBook, getPopularBooks } from "@/lib/actions/book-actions"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { getSession } from "@/lib/auth"
+  8 | import { redirect } from "next/navigation"
+  9 | import { BorrowBookButton } from "@/components/borrow-book-button"
+
+The export getPopularBooks was not found in module [project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript).
+Did you mean to import updateBook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:01:54.908] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/login" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Downloads...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" className="dark">
+                          <body
+                            className="ibm_plex_sans_63428233-module__ZoHRAa__className antialiased"
+-                           style={{overflow-x:"hidden",overflow-y:"hidden"}}
+                          >
+                  ...
+
+[00:01:54.908] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:01:54.908] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/login","route":"/login"}
+[00:01:54.908] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765188943702}
+[00:01:55.626] Browser ERROR   ./Downloads/libralink-final/app/dashboard/page.tsx:6:1
+Export getFeaturedBook doesn't exist in target module
+  4 | import { Header } from "@/components/header"
+  5 | import { BookCard } from "@/components/book-card"
+> 6 | import { getFeaturedBook, getPopularBooks } from "@/lib/actions/book-actions"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { getSession } from "@/lib/auth"
+  8 | import { redirect } from "next/navigation"
+  9 | import { BorrowBookButton } from "@/components/borrow-book-button"
+
+The export getFeaturedBook was not found in module [project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript).
+Did you mean to import deleteBook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:01:55.626] Browser ERROR   ./Downloads/libralink-final/app/dashboard/page.tsx:6:1
+Export getPopularBooks doesn't exist in target module
+  4 | import { Header } from "@/components/header"
+  5 | import { BookCard } from "@/components/book-card"
+> 6 | import { getFeaturedBook, getPopularBooks } from "@/lib/actions/book-actions"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { getSession } from "@/lib/auth"
+  8 | import { redirect } from "next/navigation"
+  9 | import { BorrowBookButton } from "@/components/borrow-book-button"
+
+The export getPopularBooks was not found in module [project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript).
+Did you mean to import updateBook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:01:55.849] Browser ERROR   ./Downloads/libralink-final/app/dashboard/page.tsx:6:1
+Export getFeaturedBook doesn't exist in target module
+  4 | import { Header } from "@/components/header"
+  5 | import { BookCard } from "@/components/book-card"
+> 6 | import { getFeaturedBook, getPopularBooks } from "@/lib/actions/book-actions"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { getSession } from "@/lib/auth"
+  8 | import { redirect } from "next/navigation"
+  9 | import { BorrowBookButton } from "@/components/borrow-book-button"
+
+The export getFeaturedBook was not found in module [project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript).
+Did you mean to import deleteBook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:01:55.849] Browser ERROR   ./Downloads/libralink-final/app/dashboard/page.tsx:6:1
+Export getPopularBooks doesn't exist in target module
+  4 | import { Header } from "@/components/header"
+  5 | import { BookCard } from "@/components/book-card"
+> 6 | import { getFeaturedBook, getPopularBooks } from "@/lib/actions/book-actions"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { getSession } from "@/lib/auth"
+  8 | import { redirect } from "next/navigation"
+  9 | import { BorrowBookButton } from "@/components/borrow-book-button"
+
+The export getPopularBooks was not found in module [project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript).
+Did you mean to import updateBook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:01:56.710] Browser ERROR   ./Downloads/libralink-final/app/dashboard/page.tsx:6:1
+Export getFeaturedBook doesn't exist in target module
+  4 | import { Header } from "@/components/header"
+  5 | import { BookCard } from "@/components/book-card"
+> 6 | import { getFeaturedBook, getPopularBooks } from "@/lib/actions/book-actions"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { getSession } from "@/lib/auth"
+  8 | import { redirect } from "next/navigation"
+  9 | import { BorrowBookButton } from "@/components/borrow-book-button"
+
+The export getFeaturedBook was not found in module [project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript).
+Did you mean to import deleteBook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:01:56.710] Browser ERROR   ./Downloads/libralink-final/app/dashboard/page.tsx:6:1
+Export getPopularBooks doesn't exist in target module
+  4 | import { Header } from "@/components/header"
+  5 | import { BookCard } from "@/components/book-card"
+> 6 | import { getFeaturedBook, getPopularBooks } from "@/lib/actions/book-actions"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { getSession } from "@/lib/auth"
+  8 | import { redirect } from "next/navigation"
+  9 | import { BorrowBookButton } from "@/components/borrow-book-button"
+
+The export getPopularBooks was not found in module [project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript).
+Did you mean to import updateBook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:01:56.710] Browser ERROR   ./Downloads/libralink-final/app/dashboard/page.tsx:6:1
+Export getFeaturedBook doesn't exist in target module
+  4 | import { Header } from "@/components/header"
+  5 | import { BookCard } from "@/components/book-card"
+> 6 | import { getFeaturedBook, getPopularBooks } from "@/lib/actions/book-actions"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { getSession } from "@/lib/auth"
+  8 | import { redirect } from "next/navigation"
+  9 | import { BorrowBookButton } from "@/components/borrow-book-button"
+
+The export getFeaturedBook was not found in module [project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript).
+Did you mean to import deleteBook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:01:56.710] Browser ERROR   ./Downloads/libralink-final/app/dashboard/page.tsx:6:1
+Export getPopularBooks doesn't exist in target module
+  4 | import { Header } from "@/components/header"
+  5 | import { BookCard } from "@/components/book-card"
+> 6 | import { getFeaturedBook, getPopularBooks } from "@/lib/actions/book-actions"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { getSession } from "@/lib/auth"
+  8 | import { redirect } from "next/navigation"
+  9 | import { BorrowBookButton } from "@/components/borrow-book-button"
+
+The export getPopularBooks was not found in module [project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript).
+Did you mean to import updateBook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:01:57.171] Browser ERROR   ./Downloads/libralink-final/app/dashboard/page.tsx:6:1
+Export getFeaturedBook doesn't exist in target module
+  4 | import { Header } from "@/components/header"
+  5 | import { BookCard } from "@/components/book-card"
+> 6 | import { getFeaturedBook, getPopularBooks } from "@/lib/actions/book-actions"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { getSession } from "@/lib/auth"
+  8 | import { redirect } from "next/navigation"
+  9 | import { BorrowBookButton } from "@/components/borrow-book-button"
+
+The export getFeaturedBook was not found in module [project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript).
+Did you mean to import deleteBook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:01:57.171] Browser ERROR   ./Downloads/libralink-final/app/dashboard/page.tsx:6:1
+Export getPopularBooks doesn't exist in target module
+  4 | import { Header } from "@/components/header"
+  5 | import { BookCard } from "@/components/book-card"
+> 6 | import { getFeaturedBook, getPopularBooks } from "@/lib/actions/book-actions"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { getSession } from "@/lib/auth"
+  8 | import { redirect } from "next/navigation"
+  9 | import { BorrowBookButton } from "@/components/borrow-book-button"
+
+The export getPopularBooks was not found in module [project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript).
+Did you mean to import updateBook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:01:57.172] Browser ERROR   ./Downloads/libralink-final/app/dashboard/page.tsx:6:1
+Export getFeaturedBook doesn't exist in target module
+  4 | import { Header } from "@/components/header"
+  5 | import { BookCard } from "@/components/book-card"
+> 6 | import { getFeaturedBook, getPopularBooks } from "@/lib/actions/book-actions"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { getSession } from "@/lib/auth"
+  8 | import { redirect } from "next/navigation"
+  9 | import { BorrowBookButton } from "@/components/borrow-book-button"
+
+The export getFeaturedBook was not found in module [project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript).
+Did you mean to import deleteBook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:01:57.172] Browser ERROR   ./Downloads/libralink-final/app/dashboard/page.tsx:6:1
+Export getPopularBooks doesn't exist in target module
+  4 | import { Header } from "@/components/header"
+  5 | import { BookCard } from "@/components/book-card"
+> 6 | import { getFeaturedBook, getPopularBooks } from "@/lib/actions/book-actions"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { getSession } from "@/lib/auth"
+  8 | import { redirect } from "next/navigation"
+  9 | import { BorrowBookButton } from "@/components/borrow-book-button"
+
+The export getPopularBooks was not found in module [project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript).
+Did you mean to import updateBook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:01:57.244] Server  ERROR    ⨯ ./Downloads/libralink-final/app/dashboard/page.tsx:6:1
+Export getFeaturedBook doesn't exist in target module
+  4 | import { Header } from "@/components/header"
+  5 | import { BookCard } from "@/components/book-card"
+> 6 | import { getFeaturedBook, getPopularBooks } from "@/lib/actions/book-actions"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { getSession } from "@/lib/auth"
+  8 | import { redirect } from "next/navigation"
+  9 | import { BorrowBookButton } from "@/components/borrow-book-button"
+
+The export getFeaturedBook was not found in module [project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript).
+Did you mean to import deleteBook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+
+
+./Downloads/libralink-final/app/dashboard/page.tsx:6:1
+Export getPopularBooks doesn't exist in target module
+  4 | import { Header } from "@/components/header"
+  5 | import { BookCard } from "@/components/book-card"
+> 6 | import { getFeaturedBook, getPopularBooks } from "@/lib/actions/book-actions"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { getSession } from "@/lib/auth"
+  8 | import { redirect } from "next/navigation"
+  9 | import { BorrowBookButton } from "@/components/borrow-book-button"
+
+The export getPopularBooks was not found in module [project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript).
+Did you mean to import updateBook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+
+[00:01:57.811] Browser ERROR   uncaughtError: Error: ./Downloads/libralink-final/app/dashboard/page.tsx:6:1
+Export getFeaturedBook doesn't exist in target module
+  4 | import { Header } from "@/components/header"
+  5 | import { BookCard } from "@/components/book-card"
+> 6 | import { getFeaturedBook, getPopularBooks } from "@/lib/actions/book-actions"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { getSession } from "@/lib/auth"
+  8 | import { redirect } from "next/navigation"
+  9 | import { BorrowBookButton } from "@/components/borrow-book-button"
+
+The export getFeaturedBook was not found in module [project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript).
+Did you mean to import deleteBook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+
+[00:01:58.005] Browser ERROR   ./Downloads/libralink-final/app/dashboard/page.tsx:6:1
+Export getFeaturedBook doesn't exist in target module
+  4 | import { Header } from "@/components/header"
+  5 | import { BookCard } from "@/components/book-card"
+> 6 | import { getFeaturedBook, getPopularBooks } from "@/lib/actions/book-actions"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { getSession } from "@/lib/auth"
+  8 | import { redirect } from "next/navigation"
+  9 | import { BorrowBookButton } from "@/components/borrow-book-button"
+
+The export getFeaturedBook was not found in module [project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript).
+Did you mean to import deleteBook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:01:58.005] Browser ERROR   ./Downloads/libralink-final/app/dashboard/page.tsx:6:1
+Export getPopularBooks doesn't exist in target module
+  4 | import { Header } from "@/components/header"
+  5 | import { BookCard } from "@/components/book-card"
+> 6 | import { getFeaturedBook, getPopularBooks } from "@/lib/actions/book-actions"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { getSession } from "@/lib/auth"
+  8 | import { redirect } from "next/navigation"
+  9 | import { BorrowBookButton } from "@/components/borrow-book-button"
+
+The export getPopularBooks was not found in module [project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript).
+Did you mean to import updateBook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:01:58.119] Browser ERROR   ./Downloads/libralink-final/app/dashboard/page.tsx:6:1
+Export getFeaturedBook doesn't exist in target module
+  4 | import { Header } from "@/components/header"
+  5 | import { BookCard } from "@/components/book-card"
+> 6 | import { getFeaturedBook, getPopularBooks } from "@/lib/actions/book-actions"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { getSession } from "@/lib/auth"
+  8 | import { redirect } from "next/navigation"
+  9 | import { BorrowBookButton } from "@/components/borrow-book-button"
+
+The export getFeaturedBook was not found in module [project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript).
+Did you mean to import deleteBook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:01:58.119] Browser ERROR   ./Downloads/libralink-final/app/dashboard/page.tsx:6:1
+Export getPopularBooks doesn't exist in target module
+  4 | import { Header } from "@/components/header"
+  5 | import { BookCard } from "@/components/book-card"
+> 6 | import { getFeaturedBook, getPopularBooks } from "@/lib/actions/book-actions"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { getSession } from "@/lib/auth"
+  8 | import { redirect } from "next/navigation"
+  9 | import { BorrowBookButton } from "@/components/borrow-book-button"
+
+The export getPopularBooks was not found in module [project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript).
+Did you mean to import updateBook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:02:10.128] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:10.337] Browser ERROR   ./Downloads/libralink-final/app/dashboard/page.tsx:6:1
+Export getFeaturedBook doesn't exist in target module
+  4 | import { Header } from "@/components/header"
+  5 | import { BookCard } from "@/components/book-card"
+> 6 | import { getFeaturedBook, getPopularBooks } from "@/lib/actions/book-actions"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { getSession } from "@/lib/auth"
+  8 | import { redirect } from "next/navigation"
+  9 | import { BorrowBookButton } from "@/components/borrow-book-button"
+
+The export getFeaturedBook was not found in module [project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript).
+Did you mean to import deleteBook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:02:10.337] Browser ERROR   ./Downloads/libralink-final/app/dashboard/page.tsx:6:1
+Export getPopularBooks doesn't exist in target module
+  4 | import { Header } from "@/components/header"
+  5 | import { BookCard } from "@/components/book-card"
+> 6 | import { getFeaturedBook, getPopularBooks } from "@/lib/actions/book-actions"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { getSession } from "@/lib/auth"
+  8 | import { redirect } from "next/navigation"
+  9 | import { BorrowBookButton } from "@/components/borrow-book-button"
+
+The export getPopularBooks was not found in module [project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript).
+Did you mean to import updateBook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:02:10.337] Browser ERROR   ./Downloads/libralink-final/app/dashboard/page.tsx:6:1
+Export getFeaturedBook doesn't exist in target module
+  4 | import { Header } from "@/components/header"
+  5 | import { BookCard } from "@/components/book-card"
+> 6 | import { getFeaturedBook, getPopularBooks } from "@/lib/actions/book-actions"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { getSession } from "@/lib/auth"
+  8 | import { redirect } from "next/navigation"
+  9 | import { BorrowBookButton } from "@/components/borrow-book-button"
+
+The export getFeaturedBook was not found in module [project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript).
+Did you mean to import deleteBook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:02:10.337] Browser ERROR   ./Downloads/libralink-final/app/dashboard/page.tsx:6:1
+Export getPopularBooks doesn't exist in target module
+  4 | import { Header } from "@/components/header"
+  5 | import { BookCard } from "@/components/book-card"
+> 6 | import { getFeaturedBook, getPopularBooks } from "@/lib/actions/book-actions"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { getSession } from "@/lib/auth"
+  8 | import { redirect } from "next/navigation"
+  9 | import { BorrowBookButton } from "@/components/borrow-book-button"
+
+The export getPopularBooks was not found in module [project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript).
+Did you mean to import updateBook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:02:10.337] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:02:10.337] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/login","route":"/login"}
+[00:02:10.337] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765188959130}
+[00:02:12.128] Browser ERROR   ./Downloads/libralink-final/app/dashboard/page.tsx:6:1
+Export getFeaturedBook doesn't exist in target module
+  4 | import { Header } from "@/components/header"
+  5 | import { BookCard } from "@/components/book-card"
+> 6 | import { getFeaturedBook, getPopularBooks } from "@/lib/actions/book-actions"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { getSession } from "@/lib/auth"
+  8 | import { redirect } from "next/navigation"
+  9 | import { BorrowBookButton } from "@/components/borrow-book-button"
+
+The export getFeaturedBook was not found in module [project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript).
+Did you mean to import deleteBook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:02:12.129] Browser ERROR   ./Downloads/libralink-final/app/dashboard/page.tsx:6:1
+Export getPopularBooks doesn't exist in target module
+  4 | import { Header } from "@/components/header"
+  5 | import { BookCard } from "@/components/book-card"
+> 6 | import { getFeaturedBook, getPopularBooks } from "@/lib/actions/book-actions"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { getSession } from "@/lib/auth"
+  8 | import { redirect } from "next/navigation"
+  9 | import { BorrowBookButton } from "@/components/borrow-book-button"
+
+The export getPopularBooks was not found in module [project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript).
+Did you mean to import updateBook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:02:12.129] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/books color: rgb(120, 120, 120) color: inherit {"dp":"/admin/books","o":"http://localhost:3000/admin/books","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765188960931}
+[00:02:12.861] Browser ERROR   ./Downloads/libralink-final/app/dashboard/page.tsx:6:1
+Export getFeaturedBook doesn't exist in target module
+  4 | import { Header } from "@/components/header"
+  5 | import { BookCard } from "@/components/book-card"
+> 6 | import { getFeaturedBook, getPopularBooks } from "@/lib/actions/book-actions"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { getSession } from "@/lib/auth"
+  8 | import { redirect } from "next/navigation"
+  9 | import { BorrowBookButton } from "@/components/borrow-book-button"
+
+The export getFeaturedBook was not found in module [project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript).
+Did you mean to import deleteBook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:02:12.861] Browser ERROR   ./Downloads/libralink-final/app/dashboard/page.tsx:6:1
+Export getPopularBooks doesn't exist in target module
+  4 | import { Header } from "@/components/header"
+  5 | import { BookCard } from "@/components/book-card"
+> 6 | import { getFeaturedBook, getPopularBooks } from "@/lib/actions/book-actions"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { getSession } from "@/lib/auth"
+  8 | import { redirect } from "next/navigation"
+  9 | import { BorrowBookButton } from "@/components/borrow-book-button"
+
+The export getPopularBooks was not found in module [project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript).
+Did you mean to import updateBook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:02:14.465] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin color: rgb(120, 120, 120) color: inherit {"dp":"/admin","o":"http://localhost:3000/admin","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765188963264}
+[00:02:14.685] Browser ERROR   ./Downloads/libralink-final/app/dashboard/page.tsx:6:1
+Export getFeaturedBook doesn't exist in target module
+  4 | import { Header } from "@/components/header"
+  5 | import { BookCard } from "@/components/book-card"
+> 6 | import { getFeaturedBook, getPopularBooks } from "@/lib/actions/book-actions"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { getSession } from "@/lib/auth"
+  8 | import { redirect } from "next/navigation"
+  9 | import { BorrowBookButton } from "@/components/borrow-book-button"
+
+The export getFeaturedBook was not found in module [project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript).
+Did you mean to import deleteBook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:02:14.685] Browser ERROR   ./Downloads/libralink-final/app/dashboard/page.tsx:6:1
+Export getPopularBooks doesn't exist in target module
+  4 | import { Header } from "@/components/header"
+  5 | import { BookCard } from "@/components/book-card"
+> 6 | import { getFeaturedBook, getPopularBooks } from "@/lib/actions/book-actions"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { getSession } from "@/lib/auth"
+  8 | import { redirect } from "next/navigation"
+  9 | import { BorrowBookButton } from "@/components/borrow-book-button"
+
+The export getPopularBooks was not found in module [project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript).
+Did you mean to import updateBook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:02:14.685] Browser ERROR   ./Downloads/libralink-final/app/dashboard/page.tsx:6:1
+Export getFeaturedBook doesn't exist in target module
+  4 | import { Header } from "@/components/header"
+  5 | import { BookCard } from "@/components/book-card"
+> 6 | import { getFeaturedBook, getPopularBooks } from "@/lib/actions/book-actions"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { getSession } from "@/lib/auth"
+  8 | import { redirect } from "next/navigation"
+  9 | import { BorrowBookButton } from "@/components/borrow-book-button"
+
+The export getFeaturedBook was not found in module [project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript).
+Did you mean to import deleteBook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:02:14.685] Browser ERROR   ./Downloads/libralink-final/app/dashboard/page.tsx:6:1
+Export getPopularBooks doesn't exist in target module
+  4 | import { Header } from "@/components/header"
+  5 | import { BookCard } from "@/components/book-card"
+> 6 | import { getFeaturedBook, getPopularBooks } from "@/lib/actions/book-actions"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { getSession } from "@/lib/auth"
+  8 | import { redirect } from "next/navigation"
+  9 | import { BorrowBookButton } from "@/components/borrow-book-button"
+
+The export getPopularBooks was not found in module [project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript).
+Did you mean to import updateBook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:02:14.685] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765188963485}
+[00:02:15.222] Browser ERROR   ./Downloads/libralink-final/app/dashboard/page.tsx:6:1
+Export getFeaturedBook doesn't exist in target module
+  4 | import { Header } from "@/components/header"
+  5 | import { BookCard } from "@/components/book-card"
+> 6 | import { getFeaturedBook, getPopularBooks } from "@/lib/actions/book-actions"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { getSession } from "@/lib/auth"
+  8 | import { redirect } from "next/navigation"
+  9 | import { BorrowBookButton } from "@/components/borrow-book-button"
+
+The export getFeaturedBook was not found in module [project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript).
+Did you mean to import deleteBook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:02:15.222] Browser ERROR   ./Downloads/libralink-final/app/dashboard/page.tsx:6:1
+Export getPopularBooks doesn't exist in target module
+  4 | import { Header } from "@/components/header"
+  5 | import { BookCard } from "@/components/book-card"
+> 6 | import { getFeaturedBook, getPopularBooks } from "@/lib/actions/book-actions"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { getSession } from "@/lib/auth"
+  8 | import { redirect } from "next/navigation"
+  9 | import { BorrowBookButton } from "@/components/borrow-book-button"
+
+The export getPopularBooks was not found in module [project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript).
+Did you mean to import updateBook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:02:15.704] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:15.902] Browser ERROR   ./Downloads/libralink-final/app/dashboard/page.tsx:6:1
+Export getFeaturedBook doesn't exist in target module
+  4 | import { Header } from "@/components/header"
+  5 | import { BookCard } from "@/components/book-card"
+> 6 | import { getFeaturedBook, getPopularBooks } from "@/lib/actions/book-actions"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { getSession } from "@/lib/auth"
+  8 | import { redirect } from "next/navigation"
+  9 | import { BorrowBookButton } from "@/components/borrow-book-button"
+
+The export getFeaturedBook was not found in module [project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript).
+Did you mean to import deleteBook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:02:15.902] Browser ERROR   ./Downloads/libralink-final/app/dashboard/page.tsx:6:1
+Export getPopularBooks doesn't exist in target module
+  4 | import { Header } from "@/components/header"
+  5 | import { BookCard } from "@/components/book-card"
+> 6 | import { getFeaturedBook, getPopularBooks } from "@/lib/actions/book-actions"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { getSession } from "@/lib/auth"
+  8 | import { redirect } from "next/navigation"
+  9 | import { BorrowBookButton } from "@/components/borrow-book-button"
+
+The export getPopularBooks was not found in module [project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript).
+Did you mean to import updateBook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:02:15.902] Browser ERROR   ./Downloads/libralink-final/app/dashboard/page.tsx:6:1
+Export getFeaturedBook doesn't exist in target module
+  4 | import { Header } from "@/components/header"
+  5 | import { BookCard } from "@/components/book-card"
+> 6 | import { getFeaturedBook, getPopularBooks } from "@/lib/actions/book-actions"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { getSession } from "@/lib/auth"
+  8 | import { redirect } from "next/navigation"
+  9 | import { BorrowBookButton } from "@/components/borrow-book-button"
+
+The export getFeaturedBook was not found in module [project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript).
+Did you mean to import deleteBook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:02:15.902] Browser ERROR   ./Downloads/libralink-final/app/dashboard/page.tsx:6:1
+Export getPopularBooks doesn't exist in target module
+  4 | import { Header } from "@/components/header"
+  5 | import { BookCard } from "@/components/book-card"
+> 6 | import { getFeaturedBook, getPopularBooks } from "@/lib/actions/book-actions"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { getSession } from "@/lib/auth"
+  8 | import { redirect } from "next/navigation"
+  9 | import { BorrowBookButton } from "@/components/borrow-book-button"
+
+The export getPopularBooks was not found in module [project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript).
+Did you mean to import updateBook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:02:15.902] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:02:15.902] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/login","route":"/login"}
+[00:02:15.902] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765188964703}
+[00:02:24.006] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:24.324] Browser ERROR   ./Downloads/libralink-final/app/dashboard/page.tsx:6:1
+Export getFeaturedBook doesn't exist in target module
+  4 | import { Header } from "@/components/header"
+  5 | import { BookCard } from "@/components/book-card"
+> 6 | import { getFeaturedBook, getPopularBooks } from "@/lib/actions/book-actions"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { getSession } from "@/lib/auth"
+  8 | import { redirect } from "next/navigation"
+  9 | import { BorrowBookButton } from "@/components/borrow-book-button"
+
+The export getFeaturedBook was not found in module [project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript).
+Did you mean to import deleteBook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:02:24.324] Browser ERROR   ./Downloads/libralink-final/app/dashboard/page.tsx:6:1
+Export getPopularBooks doesn't exist in target module
+  4 | import { Header } from "@/components/header"
+  5 | import { BookCard } from "@/components/book-card"
+> 6 | import { getFeaturedBook, getPopularBooks } from "@/lib/actions/book-actions"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { getSession } from "@/lib/auth"
+  8 | import { redirect } from "next/navigation"
+  9 | import { BorrowBookButton } from "@/components/borrow-book-button"
+
+The export getPopularBooks was not found in module [project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript).
+Did you mean to import updateBook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:02:24.324] Browser ERROR   ./Downloads/libralink-final/app/dashboard/page.tsx:6:1
+Export getFeaturedBook doesn't exist in target module
+  4 | import { Header } from "@/components/header"
+  5 | import { BookCard } from "@/components/book-card"
+> 6 | import { getFeaturedBook, getPopularBooks } from "@/lib/actions/book-actions"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { getSession } from "@/lib/auth"
+  8 | import { redirect } from "next/navigation"
+  9 | import { BorrowBookButton } from "@/components/borrow-book-button"
+
+The export getFeaturedBook was not found in module [project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript).
+Did you mean to import deleteBook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:02:24.324] Browser ERROR   ./Downloads/libralink-final/app/dashboard/page.tsx:6:1
+Export getPopularBooks doesn't exist in target module
+  4 | import { Header } from "@/components/header"
+  5 | import { BookCard } from "@/components/book-card"
+> 6 | import { getFeaturedBook, getPopularBooks } from "@/lib/actions/book-actions"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { getSession } from "@/lib/auth"
+  8 | import { redirect } from "next/navigation"
+  9 | import { BorrowBookButton } from "@/components/borrow-book-button"
+
+The export getPopularBooks was not found in module [project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript).
+Did you mean to import updateBook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:02:24.324] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:02:24.324] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/login","route":"/login"}
+[00:02:24.324] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765188973132}
+[00:05:58.247] Server  LOG      ✓ Compiled in 151ms
+[00:06:36.145] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard","o":"http://localhost:3000/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765189224927}
+[00:06:48.685] Server  ERROR    ⨯ ./Downloads/libralink-final/app/book/[id]/page.tsx:7:1
+Export getBookById doesn't exist in target module
+   5 | import { Header } from "@/components/header"
+   6 | import { BookCard } from "@/components/book-card"
+>  7 | import { getBookById, getPopularBooks } from "@/lib/actions/book-actions"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { BorrowBookButton } from "@/components/borrow-book-button"
+   9 |
+  10 | export default async function BookDetailPage({ params }: { params: Promise<{ id: string }> }) {
+
+The export getBookById was not found in module [project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript).
+Did you mean to import getBooks?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+
+[00:06:48.809] Browser ERROR   ./Downloads/libralink-final/app/book/[id]/page.tsx:7:1
+Export getBookById doesn't exist in target module
+   5 | import { Header } from "@/components/header"
+   6 | import { BookCard } from "@/components/book-card"
+>  7 | import { getBookById, getPopularBooks } from "@/lib/actions/book-actions"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { BorrowBookButton } from "@/components/borrow-book-button"
+   9 |
+  10 | export default async function BookDetailPage({ params }: { params: Promise<{ id: string }> }) {
+
+The export getBookById was not found in module [project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript).
+Did you mean to import getBooks?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:06:48.907] Server  ERROR    ⨯ ./Downloads/libralink-final/app/book/[id]/page.tsx:7:1
+Export getBookById doesn't exist in target module
+   5 | import { Header } from "@/components/header"
+   6 | import { BookCard } from "@/components/book-card"
+>  7 | import { getBookById, getPopularBooks } from "@/lib/actions/book-actions"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { BorrowBookButton } from "@/components/borrow-book-button"
+   9 |
+  10 | export default async function BookDetailPage({ params }: { params: Promise<{ id: string }> }) {
+
+The export getBookById was not found in module [project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript).
+Did you mean to import getBooks?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+
+[00:06:49.344] Browser ERROR   uncaughtError: Error: ./Downloads/libralink-final/app/book/[id]/page.tsx:7:1
+Export getBookById doesn't exist in target module
+   5 | import { Header } from "@/components/header"
+   6 | import { BookCard } from "@/components/book-card"
+>  7 | import { getBookById, getPopularBooks } from "@/lib/actions/book-actions"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { BorrowBookButton } from "@/components/borrow-book-button"
+   9 |
+  10 | export default async function BookDetailPage({ params }: { params: Promise<{ id: string }> }) {
+
+The export getBookById was not found in module [project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript).
+Did you mean to import getBooks?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+
+[00:06:49.596] Browser ERROR   ./Downloads/libralink-final/app/book/[id]/page.tsx:7:1
+Export getBookById doesn't exist in target module
+   5 | import { Header } from "@/components/header"
+   6 | import { BookCard } from "@/components/book-card"
+>  7 | import { getBookById, getPopularBooks } from "@/lib/actions/book-actions"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { BorrowBookButton } from "@/components/borrow-book-button"
+   9 |
+  10 | export default async function BookDetailPage({ params }: { params: Promise<{ id: string }> }) {
+
+The export getBookById was not found in module [project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript).
+Did you mean to import getBooks?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:06:49.597] Browser ERROR   ./Downloads/libralink-final/app/book/[id]/page.tsx:7:1
+Export getBookById doesn't exist in target module
+   5 | import { Header } from "@/components/header"
+   6 | import { BookCard } from "@/components/book-card"
+>  7 | import { getBookById, getPopularBooks } from "@/lib/actions/book-actions"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { BorrowBookButton } from "@/components/borrow-book-button"
+   9 |
+  10 | export default async function BookDetailPage({ params }: { params: Promise<{ id: string }> }) {
+
+The export getBookById was not found in module [project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript).
+Did you mean to import getBooks?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:06:52.352] Browser ERROR   ./Downloads/libralink-final/app/book/[id]/page.tsx:7:1
+Export getBookById doesn't exist in target module
+   5 | import { Header } from "@/components/header"
+   6 | import { BookCard } from "@/components/book-card"
+>  7 | import { getBookById, getPopularBooks } from "@/lib/actions/book-actions"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { BorrowBookButton } from "@/components/borrow-book-button"
+   9 |
+  10 | export default async function BookDetailPage({ params }: { params: Promise<{ id: string }> }) {
+
+The export getBookById was not found in module [project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript).
+Did you mean to import getBooks?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:07:05.024] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:05.271] Browser ERROR   ./Downloads/libralink-final/app/book/[id]/page.tsx:7:1
+Export getBookById doesn't exist in target module
+   5 | import { Header } from "@/components/header"
+   6 | import { BookCard } from "@/components/book-card"
+>  7 | import { getBookById, getPopularBooks } from "@/lib/actions/book-actions"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { BorrowBookButton } from "@/components/borrow-book-button"
+   9 |
+  10 | export default async function BookDetailPage({ params }: { params: Promise<{ id: string }> }) {
+
+The export getBookById was not found in module [project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript).
+Did you mean to import getBooks?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:07:05.271] Browser ERROR   ./Downloads/libralink-final/app/book/[id]/page.tsx:7:1
+Export getBookById doesn't exist in target module
+   5 | import { Header } from "@/components/header"
+   6 | import { BookCard } from "@/components/book-card"
+>  7 | import { getBookById, getPopularBooks } from "@/lib/actions/book-actions"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { BorrowBookButton } from "@/components/borrow-book-button"
+   9 |
+  10 | export default async function BookDetailPage({ params }: { params: Promise<{ id: string }> }) {
+
+The export getBookById was not found in module [project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript).
+Did you mean to import getBooks?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:07:05.271] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:07:05.271] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/login","route":"/login"}
+[00:07:05.271] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765189254078}
+[00:07:06.119] Browser ERROR   ./Downloads/libralink-final/app/book/[id]/page.tsx:7:1
+Export getBookById doesn't exist in target module
+   5 | import { Header } from "@/components/header"
+   6 | import { BookCard } from "@/components/book-card"
+>  7 | import { getBookById, getPopularBooks } from "@/lib/actions/book-actions"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { BorrowBookButton } from "@/components/borrow-book-button"
+   9 |
+  10 | export default async function BookDetailPage({ params }: { params: Promise<{ id: string }> }) {
+
+The export getBookById was not found in module [project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript).
+Did you mean to import getBooks?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:07:15.607] Browser ERROR   ./Downloads/libralink-final/app/book/[id]/page.tsx:7:1
+Export getBookById doesn't exist in target module
+   5 | import { Header } from "@/components/header"
+   6 | import { BookCard } from "@/components/book-card"
+>  7 | import { getBookById, getPopularBooks } from "@/lib/actions/book-actions"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { BorrowBookButton } from "@/components/borrow-book-button"
+   9 |
+  10 | export default async function BookDetailPage({ params }: { params: Promise<{ id: string }> }) {
+
+The export getBookById was not found in module [project]/Downloads/libralink-final/lib/actions/book-actions.ts [app-rsc] (ecmascript).
+Did you mean to import getBooks?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:07:16.610] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard","o":"http://localhost:3000/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765189264906}
+[00:08:54.622] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/book/f0c918c7-9d22-4556-a642-1f64cd04be95 color: rgb(120, 120, 120) color: inherit {"dp":"/book/[id]","o":"http://localhost:3000/book/f0c918c7-9d22-4556-a642-1f64cd04be95","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765189363408}
+[00:09:25.720] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/profile color: rgb(120, 120, 120) color: inherit {"dp":"/profile","o":"http://localhost:3000/profile","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765189394520}
+[00:09:37.610] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard","o":"http://localhost:3000/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765189405799}
+[00:09:44.833] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765189413635}
+[00:11:16.610] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin color: rgb(120, 120, 120) color: inherit {"dp":"/admin","o":"http://localhost:3000/admin","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765189504525}
+[00:11:33.734] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/fines color: rgb(120, 120, 120) color: inherit {"dp":"/admin/fines","o":"http://localhost:3000/admin/fines","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765189522539}
+[00:11:41.511] Server  LOG      ✓ Compiled in 284ms
+[00:11:42.604] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'amount')
+[00:12:08.541] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:12:08.566] Server  LOG      ✓ Compiled in 239ms
+[00:12:09.868] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:10.611] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:12:10.611] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/admin/fines","route":"/admin/fines"}
+[00:12:10.611] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/fines color: rgb(120, 120, 120) color: inherit {"dp":"/admin/fines","o":"http://localhost:3000/admin/fines","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765189558971}
+[00:12:13.449] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\Downloads_libralink-final_ece0879a._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:12:13.461] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'amount')
+[00:12:13.725] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'amount')
+[00:14:10.660] Server  LOG      ✓ Compiled in 132ms
+[00:14:10.661] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:14:11.316] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:11.619] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:14:11.619] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/admin/fines","route":"/admin/fines"}
+[00:14:11.620] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/fines color: rgb(120, 120, 120) color: inherit {"dp":"/admin/fines","o":"http://localhost:3000/admin/fines","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765189680340}
+[00:14:13.511] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\Downloads_libralink-final_ece0879a._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:14:13.513] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'map')
+[00:14:14.620] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'map')
+[00:15:59.245] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:15:59.254] Server  LOG      ✓ Compiled in 102ms
+[00:15:59.905] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:16:00.615] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:16:00.615] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/admin/fines","route":"/admin/fines"}
+[00:16:00.615] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/fines color: rgb(120, 120, 120) color: inherit {"dp":"/admin/fines","o":"http://localhost:3000/admin/fines","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765189788892}
+[00:16:00.847] Server  ERROR   C:\Users\Jan\Downloads\libralink-final\.next\dev\server\chunks\ssr\Downloads_libralink-final_ece0879a._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:00.848] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'map')
+[00:16:01.607] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'map')
+[00:16:01.628] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:16:01.645] Server  LOG      ✓ Compiled in 125ms
+[00:16:02.315] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:16:02.603] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:16:02.604] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/admin/fines","route":"/admin/fines"}
+[00:16:02.604] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/fines color: rgb(120, 120, 120) color: inherit {"dp":"/admin/fines","o":"http://localhost:3000/admin/fines","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765189791296}
+[00:18:07.118] Server  LOG      ✓ Compiled in 135ms
+[00:19:13.752] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:19:13.752] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:19:24.271] Server  LOG      ✓ Compiled in 137ms
+[00:19:26.399] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:19:26.400] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:19:58.676] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/profile color: rgb(120, 120, 120) color: inherit {"dp":"/admin/profile","o":"http://localhost:3000/admin/profile","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765190027476}
+[00:20:02.365] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/transactions color: rgb(120, 120, 120) color: inherit {"dp":"/admin/transactions","o":"http://localhost:3000/admin/transactions","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765190031169}
+[00:20:13.970] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/profile color: rgb(120, 120, 120) color: inherit {"dp":"/admin/profile","o":"http://localhost:3000/admin/profile","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765190042757}
+[00:20:15.766] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/books color: rgb(120, 120, 120) color: inherit {"dp":"/admin/books","o":"http://localhost:3000/admin/books","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765190044571}
+[00:20:18.353] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/profile color: rgb(120, 120, 120) color: inherit {"dp":"/admin/profile","o":"http://localhost:3000/admin/profile","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765190047146}
+[00:20:22.293] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin color: rgb(120, 120, 120) color: inherit {"dp":"/admin","o":"http://localhost:3000/admin","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765190051095}
+[00:20:25.485] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/users color: rgb(120, 120, 120) color: inherit {"dp":"/admin/users","o":"http://localhost:3000/admin/users","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765190054288}
+[00:20:42.616] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/roles color: rgb(120, 120, 120) color: inherit {"dp":"/admin/roles","o":"http://localhost:3000/admin/roles","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765190071214}
+[00:20:48.325] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/books color: rgb(120, 120, 120) color: inherit {"dp":"/admin/books","o":"http://localhost:3000/admin/books","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765190077124}
+[02:47:53.900] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/fines color: rgb(120, 120, 120) color: inherit {"dp":"/admin/fines","o":"http://localhost:3000/admin/fines","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765198903818}
+[02:47:54.383] Server  LOG      ○ Compiling /admin/reservations ...
+[02:48:57.314] Server  LOG      ✓ Compiled in 387ms
+[02:49:17.380] Server  LOG      ✓ Compiled in 142ms
+[02:49:45.106] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[02:49:45.106] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[02:56:43.620] Server  LOG      ✓ Compiled in 507ms
+[02:56:47.084] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/users color: rgb(120, 120, 120) color: inherit {"dp":"/admin/users","o":"http://localhost:3000/admin/users","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765199436968}

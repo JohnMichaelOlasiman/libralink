@@ -55,6 +55,8 @@ export function AdminFinesClient({ initialFines, users }: AdminFinesClientProps)
       setIsDeleteModalOpen(true)
     }
   }
+const peso = (amount: number) =>
+  `₱${amount.toLocaleString("en-PH", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
 
   const handleAddSubmit = async (data: any) => {
     startTransition(async () => {
@@ -110,8 +112,10 @@ export function AdminFinesClient({ initialFines, users }: AdminFinesClientProps)
         <div>
           <h1 className="text-3xl font-bold text-foreground mb-1">Fine Management</h1>
           <p className="text-muted-foreground">
-            Total unpaid fines: <span className="text-red-400 font-semibold">${totalUnpaid.toFixed(2)}</span>
-          </p>
+  Total unpaid fines:{" "}
+  <span className="text-red-400 font-semibold">{peso(totalUnpaid)}</span>
+</p>
+
         </div>
         <Button
           onClick={() => setIsAddModalOpen(true)}

@@ -61,12 +61,14 @@ export function AdminFineFormModal({
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
+
     onSubmit({
       userId: formData.userId,
       amount: formData.amount,
       reason: formData.reason.toLowerCase(),
       description: formData.description || formData.bookTitle,
     })
+
     onClose()
   }
 
@@ -74,17 +76,24 @@ export function AdminFineFormModal({
     <Dialog open={isOpen} onOpenChange={onClose}>
       <DialogContent className="glass-card border-border sm:max-w-md">
         <DialogHeader>
-          <DialogTitle className="text-foreground">{mode === "add" ? "Add New Fine" : "Edit Fine"}</DialogTitle>
+          <DialogTitle className="text-foreground">
+            {mode === "add" ? "Add New Fine" : "Edit Fine"}
+          </DialogTitle>
         </DialogHeader>
+
         <form onSubmit={handleSubmit} className="space-y-4">
+          {/* STUDENT */}
           <div className="space-y-2">
-            <Label htmlFor="userId" className="text-foreground">
-              Student
-            </Label>
-            <Select value={formData.userId} onValueChange={(value) => setFormData({ ...formData, userId: value })}>
+            <Label htmlFor="userId" className="text-foreground">Student</Label>
+
+            <Select
+              value={formData.userId}
+              onValueChange={(value) => setFormData({ ...formData, userId: value })}
+            >
               <SelectTrigger className="bg-input border-border">
                 <SelectValue placeholder="Select a student" />
               </SelectTrigger>
+
               <SelectContent>
                 {users.map((user) => (
                   <SelectItem key={user.id} value={user.id}>
@@ -95,10 +104,12 @@ export function AdminFineFormModal({
             </Select>
           </div>
 
+          {/* DESCRIPTION */}
           <div className="space-y-2">
             <Label htmlFor="description" className="text-foreground">
-              Description (Optional - e.g., Book Title)
+              Description (Optional — e.g., Book Title)
             </Label>
+
             <Input
               id="description"
               value={formData.description}
@@ -108,14 +119,18 @@ export function AdminFineFormModal({
             />
           </div>
 
+          {/* REASON */}
           <div className="space-y-2">
-            <Label htmlFor="reason" className="text-foreground">
-              Reason
-            </Label>
-            <Select value={formData.reason} onValueChange={(value) => setFormData({ ...formData, reason: value })}>
+            <Label htmlFor="reason" className="text-foreground">Reason</Label>
+
+            <Select
+              value={formData.reason}
+              onValueChange={(value) => setFormData({ ...formData, reason: value })}
+            >
               <SelectTrigger className="bg-input border-border">
                 <SelectValue placeholder="Select reason" />
               </SelectTrigger>
+
               <SelectContent>
                 <SelectItem value="Overdue">Overdue</SelectItem>
                 <SelectItem value="Damaged">Damaged</SelectItem>
@@ -125,27 +140,31 @@ export function AdminFineFormModal({
             </Select>
           </div>
 
+          {/* AMOUNT — PESO FIX */}
           <div className="space-y-2">
-            <Label htmlFor="amount" className="text-foreground">
-              Amount ($)
-            </Label>
+            <Label htmlFor="amount" className="text-foreground">Amount (₱)</Label>
+
             <Input
               id="amount"
               type="number"
               step="0.01"
               min="0"
               value={formData.amount}
-              onChange={(e) => setFormData({ ...formData, amount: Number.parseFloat(e.target.value) || 0 })}
+              onChange={(e) =>
+                setFormData({ ...formData, amount: Number.parseFloat(e.target.value) || 0 })
+              }
               placeholder="Enter amount"
               className="bg-input border-border"
               required
             />
           </div>
 
+          {/* BUTTONS */}
           <div className="flex justify-end gap-3 pt-4">
             <Button type="button" variant="outline" onClick={onClose}>
               Cancel
             </Button>
+
             <Button
               type="submit"
               className="bg-primary text-primary-foreground hover:bg-primary/90"

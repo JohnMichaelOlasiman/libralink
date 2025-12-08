@@ -4,12 +4,13 @@ import { useState, useTransition } from "react"
 import { AdminBookCard } from "@/components/admin-book-card"
 import { BookFormModal } from "@/components/book-form-modal"
 import { DeleteConfirmModal } from "@/components/delete-confirm-modal"
+import { CategoryFormModal } from "@/components/category-form-modal"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Card } from "@/components/ui/card"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Plus, Search, Edit, Trash2 } from "lucide-react"
-import { createBook, updateBook, deleteBook } from "@/lib/actions/book-actions"
+import { createBook, updateBook, deleteBook, createCategory, updateCategory, deleteCategory } from "@/lib/actions/book-actions"
 import type { BookWithDetails, Category } from "@/lib/db"
 
 interface AdminBooksClientProps {
@@ -19,12 +20,15 @@ interface AdminBooksClientProps {
 
 export function AdminBooksClient({ initialBooks, initialCategories }: AdminBooksClientProps) {
   const [books, setBooks] = useState(initialBooks)
-  const [categories] = useState(initialCategories)
+  const [categories, setCategories] = useState(initialCategories)
   const [searchQuery, setSearchQuery] = useState("")
   const [isAddBookModalOpen, setIsAddBookModalOpen] = useState(false)
   const [isEditBookModalOpen, setIsEditBookModalOpen] = useState(false)
-  const [isDeleteModalOpen, setIsDeleteModalOpen] = useState(false)
+  const [isDeleteBookModalOpen, setIsDeleteBookModalOpen] = useState(false)
   const [selectedBook, setSelectedBook] = useState<BookWithDetails | null>(null)
+  const [isCategoryModalOpen, setIsCategoryModalOpen] = useState(false)
+  const [editingCategory, setEditingCategory] = useState<Category | null>(null)
+  const [isDeleteCategoryModalOpen, setIsDeleteCategoryModalOpen] = useState(false)
   const [isPending, startTransition] = useTransition()
 
   const filteredBooks = books.filter((book) => {
@@ -49,13 +53,13 @@ export function AdminBooksClient({ initialBooks, initialCategories }: AdminBooks
     const book = books.find((b) => b.id === id)
     if (book) {
       setSelectedBook(book)
-      setIsDeleteModalOpen(true)
+      setIsDeleteBookModalOpen(true)
     }
   }
 
   const handleAddBookSubmit = async (data: any) => {
     startTransition(async () => {
-      const { book, error } = await createBook({
+      const { book } = await createBook({
         title: data.title,
         isbn: data.isbn,
         description: data.description,
@@ -86,7 +90,7 @@ export function AdminBooksClient({ initialBooks, initialCategories }: AdminBooks
   const handleEditBookSubmit = async (data: any) => {
     if (!selectedBook) return
     startTransition(async () => {
-      const { book, error } = await updateBook(selectedBook.id, {
+      const { book } = await updateBook(selectedBook.id, {
         title: data.title,
         isbn: data.isbn,
         description: data.description,
@@ -124,14 +128,59 @@ export function AdminBooksClient({ initialBooks, initialCategories }: AdminBooks
     })
   }
 
-  const handleDeleteConfirm = async () => {
+  const handleDeleteBookConfirm = async () => {
     if (!selectedBook) return
     startTransition(async () => {
       const { error } = await deleteBook(selectedBook.id)
       if (!error) {
         setBooks(books.filter((b) => b.id !== selectedBook.id))
-        setIsDeleteModalOpen(false)
+        setIsDeleteBookModalOpen(false)
         setSelectedBook(null)
+      }
+    })
+  }
+
+  const handleAddCategory = () => {
+    setEditingCategory(null)
+    setIsCategoryModalOpen(true)
+  }
+
+  const handleEditCategory = (category: Category) => {
+    setEditingCategory(category)
+    setIsCategoryModalOpen(true)
+  }
+
+  const handleDeleteCategory = (category: Category) => {
+    setEditingCategory(category)
+    setIsDeleteCategoryModalOpen(true)
+  }
+
+  const handleCategorySubmit = async (data: { name: string }) => {
+    startTransition(async () => {
+      if (editingCategory) {
+        const { category, error } = await updateCategory(editingCategory.id, { name: data.name })
+        if (!error && category) {
+          setCategories(categories.map((c) => (c.id === category.id ? category : c)))
+        }
+      } else {
+        const { category, error } = await createCategory({ name: data.name })
+        if (!error && category) {
+          setCategories([category, ...categories])
+        }
+      }
+      setIsCategoryModalOpen(false)
+      setEditingCategory(null)
+    })
+  }
+
+  const handleCategoryDeleteConfirm = async () => {
+    if (!editingCategory) return
+    startTransition(async () => {
+      const { error } = await deleteCategory(editingCategory.id)
+      if (!error) {
+        setCategories(categories.filter((c) => c.id !== editingCategory.id))
+        setIsDeleteCategoryModalOpen(false)
+        setEditingCategory(null)
       }
     })
   }
@@ -219,19 +268,38 @@ export function AdminBooksClient({ initialBooks, initialCategories }: AdminBooks
         </TabsContent>
 
         <TabsContent value="categories">
+          <div className="flex justify-end mb-4">
+            <Button
+              onClick={handleAddCategory}
+              className="bg-primary text-primary-foreground hover:bg-primary/90"
+              disabled={isPending}
+            >
+              <Plus className="w-4 h-4 mr-2" />
+              Add Category
+            </Button>
+          </div>
           <div className="grid gap-4">
             {categories.length > 0 ? (
               categories.map((category) => (
                 <Card key={category.id} className="glass-card p-4 flex items-center justify-between">
                   <div>
                     <h3 className="font-semibold text-foreground">{category.name}</h3>
-                    <p className="text-sm text-muted-foreground">{category.description || "No description"}</p>
                   </div>
                   <div className="flex gap-2">
-                    <Button variant="ghost" size="icon" className="h-8 w-8">
+                    <Button
+                      variant="ghost"
+                      size="icon"
+                      className="h-8 w-8"
+                      onClick={() => handleEditCategory(category)}
+                    >
                       <Edit className="w-4 h-4" />
                     </Button>
-                    <Button variant="ghost" size="icon" className="h-8 w-8 text-destructive hover:bg-destructive/20">
+                    <Button
+                      variant="ghost"
+                      size="icon"
+                      className="h-8 w-8 text-destructive hover:bg-destructive/20"
+                      onClick={() => handleDeleteCategory(category)}
+                    >
                       <Trash2 className="w-4 h-4" />
                     </Button>
                   </div>
@@ -265,14 +333,34 @@ export function AdminBooksClient({ initialBooks, initialCategories }: AdminBooks
         categories={categories}
       />
       <DeleteConfirmModal
-        isOpen={isDeleteModalOpen}
+        isOpen={isDeleteBookModalOpen}
         onClose={() => {
-          setIsDeleteModalOpen(false)
+          setIsDeleteBookModalOpen(false)
           setSelectedBook(null)
         }}
-        onConfirm={handleDeleteConfirm}
+        onConfirm={handleDeleteBookConfirm}
         title="Delete Book"
         description={`Are you sure you want to delete "${selectedBook?.title}"? This action cannot be undone.`}
+      />
+      <CategoryFormModal
+        isOpen={isCategoryModalOpen}
+        onClose={() => {
+          setIsCategoryModalOpen(false)
+          setEditingCategory(null)
+        }}
+        onSubmit={handleCategorySubmit}
+        initialData={editingCategory ? { id: editingCategory.id, name: editingCategory.name } : null}
+        mode={editingCategory ? "edit" : "add"}
+      />
+      <DeleteConfirmModal
+        isOpen={isDeleteCategoryModalOpen}
+        onClose={() => {
+          setIsDeleteCategoryModalOpen(false)
+          setEditingCategory(null)
+        }}
+        onConfirm={handleCategoryDeleteConfirm}
+        title="Delete Category"
+        description={`Are you sure you want to delete "${editingCategory?.name}"?`}
       />
     </main>
   )

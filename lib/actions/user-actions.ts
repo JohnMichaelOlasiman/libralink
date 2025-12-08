@@ -45,13 +45,12 @@ export async function createUser(data: {
   university_id?: string
   university_name?: string
   department?: string
-  year_level?: string // Added year_level
-  course?: string // Added course
+  year_level?: string
+  course?: string
 }): Promise<{ user: User | null; error: string | null }> {
   try {
     await requireRole(["admin"])
 
-    // Check if email exists
     const existing = await sql`SELECT id FROM users WHERE email = ${data.email}`
     if (existing.length > 0) {
       return { user: null, error: "Email already exists" }
@@ -61,9 +60,17 @@ export async function createUser(data: {
 
     const result = await sql`
       INSERT INTO users (email, password_hash, full_name, role, university_id, university_name, department, year_level, course)
-      VALUES (${data.email}, ${passwordHash}, ${data.full_name}, ${data.role}, 
-              ${data.university_id || null}, ${data.university_name || null}, ${data.department || null},
-              ${data.year_level || null}, ${data.course || null})
+      VALUES (
+        ${data.email}, 
+        ${passwordHash}, 
+        ${data.full_name}, 
+        ${data.role}, 
+        ${data.university_id || null}, 
+        ${data.university_name || null}, 
+        ${data.department || null},
+        ${data.year_level || null}, 
+        ${data.course || null}
+      )
       RETURNING *
     `
 
@@ -85,8 +92,8 @@ export async function updateUser(
     department?: string
     phone?: string
     avatar_url?: string
-    year_level?: string // Added
-    course?: string // Added
+    year_level?: string
+    course?: string
   },
 ): Promise<{ user: User | null; error: string | null }> {
   try {
@@ -139,13 +146,24 @@ export async function updateUserStatus(id: string, status: UserStatus): Promise<
   }
 }
 
+/* ----------------------------------------------------
+   REPLACED deleteUser WITH SAFE SOFT DELETE
+---------------------------------------------------- */
+
 export async function deleteUser(id: string): Promise<{ error: string | null }> {
   try {
     await requireRole(["admin"])
-    await sql`DELETE FROM users WHERE id = ${id}`
+
+    // Soft delete instead of hard delete
+    await sql`
+      UPDATE users
+      SET status = 'inactive'
+      WHERE id = ${id}
+    `
+
     return { error: null }
   } catch (error) {
-    console.error("Delete user error:", error)
+    console.error("Soft delete user error:", error)
     return { error: "Failed to delete user" }
   }
 }
@@ -183,7 +201,6 @@ export async function updateCurrentUserProfile(data: {
     }
 
     if (data.email) {
-      // Check if email is already taken by another user
       const existing = await sql`SELECT id FROM users WHERE email = ${data.email} AND id != ${user.id}`
       if (existing.length > 0) {
         return { user: null, error: "Email already in use" }
@@ -217,7 +234,6 @@ export async function updateCurrentUserPassword(
       return { error: "Not authenticated" }
     }
 
-    // Verify current password
     const currentHash = hashPassword(currentPassword)
     const userRecord = await sql`SELECT password_hash FROM users WHERE id = ${user.id}`
 
@@ -225,7 +241,6 @@ export async function updateCurrentUserPassword(
       return { error: "Current password is incorrect" }
     }
 
-    // Update to new password
     const newHash = hashPassword(newPassword)
     await sql`UPDATE users SET password_hash = ${newHash} WHERE id = ${user.id}`
 
