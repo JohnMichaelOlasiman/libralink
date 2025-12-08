@@ -147,7 +147,7 @@ export default async function AdminDashboard() {
               <Link href="/admin/fines">
                 <StatCard
                   title="Unpaid Fines"
-                  value={`$${stats.library.unpaidFines.toFixed(2)}`}
+                  value={`₱${stats.library.unpaidFines.toLocaleString("en-PH", { minimumFractionDigits: 2 })}`}
                   icon={DollarSign}
                   iconColor="text-orange-400"
                 />
