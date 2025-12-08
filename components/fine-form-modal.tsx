@@ -117,7 +117,7 @@ export function FineFormModal({ isOpen, onClose, onSubmit, initialData, mode }: 
             </div>
             <div className="space-y-2">
               <Label htmlFor="amount" className="text-sm text-muted-foreground">
-                Amount ($)
+                Amount (₱)
               </Label>
               <Input
                 id="amount"

@@ -114,7 +114,7 @@ export function AdminUsersClient({ initialUsers }: AdminUsersClientProps) {
     role: (user.role?.charAt(0).toUpperCase() + user.role?.slice(1)) as any,
     status: user.status as any,
     avatar: user.avatar_url || "/placeholder.svg",
-    joinDate: new Date(user.created_at).toLocaleDateString(),
+    dateRegistered: new Date(user.created_at).toLocaleDateString(),
     universityId: user.university_id || "",
     yearLevel: user.year_level || "", // Added year_level
     course: user.course || "", // Added course

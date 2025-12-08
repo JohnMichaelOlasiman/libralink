@@ -41,8 +41,11 @@ export function FineCard({
         <div className="flex gap-4">
           {/* Icon */}
           <div className={`p-3 rounded-xl ${status === "paid" ? "bg-green-400/10" : "bg-red-400/10"}`}>
-            <DollarSign className={`w-6 h-6 ${status === "paid" ? "text-green-400" : "text-red-400"}`} />
-          </div>
+  <span className={`text-2xl font-bold ${status === "paid" ? "text-green-400" : "text-red-400"}`}>
+    ₱
+  </span>
+</div>
+
 
           {/* Content */}
           <div className="space-y-1">
@@ -64,7 +67,10 @@ export function FineCard({
 
         {/* Amount & Status */}
         <div className="text-right">
-          <p className="text-2xl font-bold text-foreground">${amount.toFixed(2)}</p>
+          <p className="text-2xl font-bold text-foreground">
+  ₱{amount.toLocaleString("en-PH", { minimumFractionDigits: 2 })}
+</p>
+
           <div
             className={`flex items-center gap-1 justify-end mt-1 ${status === "paid" ? "text-green-400" : "text-red-400"}`}
           >

@@ -69,6 +69,8 @@ export interface User {
   last_login: Date | null
   created_at: Date
   updated_at: Date
+  year_level: string | null
+course: string | null
 }
 
 export interface Author {

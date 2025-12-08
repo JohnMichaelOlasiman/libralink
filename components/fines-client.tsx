@@ -86,7 +86,11 @@ export function FinesClient({ initialFines }: FinesClientProps) {
         <div>
           <h1 className="text-3xl font-bold text-foreground mb-1">Fines Management</h1>
           <p className="text-muted-foreground">
-            Total unpaid fines: <span className="text-red-400 font-semibold">${totalUnpaid.toFixed(2)}</span>
+            Total unpaid fines:
+<span className="text-red-400 font-semibold">
+  ₱{totalUnpaid.toLocaleString("en-PH", { minimumFractionDigits: 2 })}
+</span>
+
           </p>
         </div>
         <Button

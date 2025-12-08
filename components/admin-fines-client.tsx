@@ -93,8 +93,9 @@ const peso = (amount: number) =>
     amount: Number(f.amount),
     reason: f.reason,
     status: f.status as any,
-    createdDate: new Date(f.created_at).toLocaleDateString(),
-  })
+      dateIssued: new Date(f.created_at).toLocaleDateString(),
+})
+
 
   const filteredFines = fines.filter((f) => {
     const studentName = (f.user as any)?.full_name?.toLowerCase() || ""
